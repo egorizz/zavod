@@ -43,12 +43,12 @@ $fs-xxl: 36px;
 // === COMMON ===
 body {
     @include arial;
+    margin: 0;
 }
 
 .section-outer {
     max-width: 1300px;
     margin: 0 auto;
-    // padding: 0 $base*5;
 }
 
 .section-inner {
@@ -56,10 +56,39 @@ body {
     margin: 0 auto;
 }
 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    // Любые другие стили, которые вы хотите добавить
+}
+
+.header.scrolled .header-text-primary-title {
+    display: none;
+}
+
+.header.scrolled .logo img {
+    width: 150px;
+    height: auto;
+}
+
+.header.scrolled .header-text-secondary {
+    display: flex;
+    Flex-direction: row;
+}
+
+.header.scrolled .section-navigation {
+    position: relative;
+    top: 0;
+}
+
 // === / COMMON ===
 
 // === HEADER ===
 .section-header {
+    padding-top: $base*4;
     margin-bottom: $base;
 
     &-wrap {
@@ -117,7 +146,6 @@ body {
 
                         &-mail {
                             color: #428bca;
-                            ;
                             text-decoration: none;
                         }
                     }
@@ -394,22 +422,26 @@ body {
         }
     }
 }
+
 // === / FOTER-MENU ===
 
 // === COPYRIGHT ===
 .outer-copyright {
     background-color: #3d4044;
+
     .section-copyright {
         padding-top: $base*3;
         padding-bottom: $base*3;
         display: flex;
         text-align: center;
         justify-content: space-between;
+
         &-text {
             color: #fff;
             font-size: $fs-s;
         }
     }
 }
+
 // === / COPYRIGHT ===
 // === / FOOTER ===

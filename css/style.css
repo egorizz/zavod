@@ -191,6 +191,7 @@
 }
 body {
   font-family: "Arial", sans-serif;
+  margin: 0;
 }
 
 .section-outer {
@@ -203,7 +204,35 @@ body {
   margin: 0 auto;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.header.scrolled .header-text-primary-title {
+  display: none;
+}
+
+.header.scrolled .logo img {
+  width: 150px;
+  height: auto;
+}
+
+.header.scrolled .header-text-secondary {
+  display: flex;
+  Flex-direction: row;
+}
+
+.header.scrolled .section-navigation {
+  position: relative;
+  top: 0;
+}
+
 .section-header {
+  padding-top: 16px;
   margin-bottom: 4px;
 }
 .section-header-wrap {
