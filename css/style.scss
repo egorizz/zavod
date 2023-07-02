@@ -355,6 +355,8 @@ body {
 
             @media (max-width: $breakpoint-sm-max) {
                 margin-left: 0;
+                padding-left: $base*10;
+                padding-right: $base*10;
             }
 
             .span-text {

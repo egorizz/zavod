@@ -434,6 +434,8 @@ body {
 @media (max-width: 767px) {
   .outer-equipmen .section-equipment .text {
     margin-left: 0;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 .outer-equipmen .section-equipment .text .span-text {
