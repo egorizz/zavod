@@ -204,6 +204,101 @@ body {
   margin: 0 auto;
 }
 
+.material {
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+@media (max-width: 575px) {
+  .material {
+    margin-left: 40px;
+  }
+}
+.material-text {
+  padding-right: 76px;
+  color: #333333;
+  line-height: 1.5;
+  font-size: 20px;
+}
+@media (max-width: 575px) {
+  .material-text {
+    padding-right: 40px;
+    font-size: 10px;
+  }
+}
+
+.material-solo {
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+@media (max-width: 575px) {
+  .material-solo {
+    margin-left: 40px;
+  }
+}
+.material-solo-text {
+  padding-right: 76px;
+  color: #333333;
+  line-height: 1.5;
+  font-size: 20px;
+}
+@media (max-width: 575px) {
+  .material-solo-text {
+    padding-right: 40px;
+    font-size: 10px;
+  }
+}
+.material-solo-text-bold {
+  font-weight: bold;
+}
+
+.list-item {
+  color: #333333;
+  line-height: 1.5;
+  font-size: 20px;
+  padding-right: 76px;
+}
+@media (max-width: 575px) {
+  .list-item {
+    padding-right: 40px;
+    font-size: 10px;
+  }
+}
+
+.grid-item-img_alt {
+  display: inline-block;
+  overflow: hidden;
+}
+.grid-item-img_alt img {
+  transition: 0.6s;
+  display: block;
+}
+.grid-item-img_alt img:hover {
+  transform: scale(1.2);
+}
+
+h1 {
+  font-size: 36px;
+  padding-right: 76px;
+}
+@media (max-width: 575px) {
+  h1 {
+    padding-right: 40px;
+    font-size: 24px;
+  }
+}
+
+h3 {
+  padding-right: 76px;
+  font-size: 24px;
+}
+@media (max-width: 575px) {
+  h3 {
+    padding-right: 40px;
+    font-size: 16px;
+  }
+}
+
 .burger {
   display: none;
   background-color: #525355;
@@ -247,6 +342,144 @@ body {
   width: 1px;
   background-color: #777777;
   left: -10px;
+}
+@media (max-width: 767px) {
+  .bread-crumbs-title {
+    font-size: 8px;
+  }
+}
+
+.options_another {
+  padding: 0 16px;
+}
+@media (max-width: 1199px) {
+  .options_another-wrap_alt .material h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .options_another-wrap_alt .material h1 {
+    text-align: center;
+    font-size: 26px;
+  }
+}
+.options_another-wrap_alt-text {
+  background-color: #fff;
+}
+.options_another-wrap_alt-text .flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 1199px) {
+  .options_another-wrap_alt-text .flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .options_another-wrap_alt-text .flex-container .flex1-img img {
+    width: 380px;
+  }
+}
+@media (max-width: 767px) {
+  .options_another-wrap_alt-text .flex-container .flex1-img img {
+    width: 240px;
+  }
+}
+.options_another-wrap_alt-text .flex-container .flex2-text {
+  padding-right: 76px;
+  color: #333333;
+  line-height: 1.5;
+  font-size: 16px;
+}
+@media (max-width: 575px) {
+  .options_another-wrap_alt-text .flex-container .flex2-text {
+    padding-right: 40px;
+    font-size: 10px;
+  }
+}
+
+.slider-wrap {
+  margin-top: 40px;
+}
+.slider-wrap .slider {
+  background-color: #fff;
+  margin: 0 16px;
+}
+.slider-wrap .slider .tabs {
+  display: flex;
+}
+.slider-wrap .slider .tabs .tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: lightgray;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .slider-wrap .slider .tabs .tab {
+    font-size: 12px;
+  }
+}
+.slider-wrap .slider .tabs .tab.active {
+  background-color: white;
+}
+.slider-wrap .slider .content .content-tab {
+  display: none;
+  padding: 20px;
+}
+.slider-wrap .slider .content .content-tab .content-wrap .text {
+  color: #333333;
+  line-height: 1.5;
+}
+.slider-wrap .slider .content .content-tab .content-wrap .images {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .slider-wrap .slider .content .content-tab .content-wrap .images img {
+    width: 240px;
+  }
+}
+.slider-wrap .slider .content .content-tab .content-wrap h3 {
+  color: #333333;
+}
+@media (max-width: 767px) {
+  .slider-wrap .slider .content .content-tab .content-wrap h3 {
+    text-align: center;
+  }
+}
+.slider-wrap .slider .content .content-tab .content-wrap .slider-list_item {
+  color: #333333;
+  line-height: 1.5;
+}
+.slider-wrap .slider .content .content-tab.active {
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grid-item_alt {
+  justify-content: end;
+}
+
+@media (max-width: 767px) {
+  td {
+    font-size: 12px;
+  }
 }
 
 .section-header {
@@ -423,6 +656,7 @@ body {
 }
 @media (max-width: 1199px) {
   .outer-equipmen .section-equipment .text {
+    margin-top: 40px;
     font-size: 20px;
   }
 }
@@ -436,6 +670,7 @@ body {
     margin-left: 0;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: 14px;
   }
 }
 .outer-equipmen .section-equipment .text .span-text {
@@ -449,6 +684,11 @@ body {
 @media (max-width: 991px) {
   .outer-equipmen .section-equipment .text .span-text {
     font-size: 26px;
+  }
+}
+@media (max-width: 767px) {
+  .outer-equipmen .section-equipment .text .span-text {
+    font-size: 24px;
   }
 }
 .outer-equipmen .options {
@@ -476,7 +716,8 @@ body {
 }
 @media (max-width: 1199px) {
   .outer-equipmen .options .grid-container {
-    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-columns: repeat(2, 0.3fr);
+    justify-content: center;
   }
 }
 @media (max-width: 575px) {
@@ -485,26 +726,32 @@ body {
   }
 }
 .outer-equipmen .options .grid-container .grid-item {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  line-height: 0.8;
+  line-height: 1;
 }
 @media (max-width: 575px) {
   .outer-equipmen .options .grid-container .grid-item {
-    line-height: 0.3;
+    line-height: 1;
   }
+}
+.outer-equipmen .options .grid-container .grid-item-img {
+  display: inline-block;
+  overflow: hidden;
 }
 @media (max-width: 575px) {
   .outer-equipmen .options .grid-container .grid-item-img img {
-    width: 75%;
+    width: 90%;
   }
 }
 .outer-equipmen .options .grid-container .grid-item-text {
   text-decoration: none;
   color: inherit;
-  font-size: 24px;
+  font-size: 20px;
   transition: 0.2s;
   font-weight: bold;
 }
