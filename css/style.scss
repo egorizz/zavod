@@ -155,6 +155,13 @@ h1 {
     }
 }
 
+h2 {
+    @media (max-width: $breakpoint-xs-max) {
+        padding-right: $base*10;
+        font-size: $fs-m - $base;
+    }
+}
+
 h3 {
     padding-right: $base*19;
     font-size: $fs-m;
@@ -267,15 +274,52 @@ h3 {
                 }
 
                 .flex2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    @media (max-width: $breakpoint-lg-max) {
+                        align-items: center;
+                    }
+
+                    h3 {
+                        @media (max-width: $breakpoint-lg-max) {
+                            padding-right: 0;
+                        }
+
+                        @media (max-width: $breakpoint-xs-max) {
+                            padding-right: 0;
+                        }
+                    }
+
                     &-text {
                         padding-right: $base*19;
                         color: #333333;
                         line-height: 1.5;
                         font-size: $fs-m - $base*2;
 
+                        @media (max-width: $breakpoint-lg-max) {
+                            padding-right: 0;
+                        }
+
                         @media (max-width: $breakpoint-xs-max) {
-                            padding-right: $base*10;
+                            padding-right: 0;
                             font-size: $fs-xxs;
+                        }
+                    }
+
+                    .btn {
+                        margin-bottom: $base*10;
+                        width: $base*30;
+                        background: #5a5b59;
+                        color: #ffffff;
+                        border: none;
+                        padding: $base*3 $base*5;
+                        cursor: pointer;
+                        transition: $transition;
+
+                        &:hover {
+                            background-color: darken(#428bca, 5%);
                         }
                     }
                 }
@@ -443,6 +487,7 @@ td {
         font-size: $fs-xs;
     }
 }
+
 
 
 
