@@ -278,36 +278,54 @@ h3 {
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    align-items: center;
 
                     @media (max-width: $breakpoint-lg-max) {
                         align-items: center;
                     }
 
-                    h3 {
-                        @media (max-width: $breakpoint-lg-max) {
-                            padding-right: 0;
-                        }
+                    &-wraper {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 450px;
 
                         @media (max-width: $breakpoint-xs-max) {
-                            padding-right: 0;
+                            width: 240px;
+                        }
+
+                        h3 {
+                            @media (max-width: $breakpoint-lg-max) {
+                                padding-right: 0;
+                            }
+    
+                            @media (max-width: $breakpoint-xs-max) {
+                                padding-right: 0;
+                            }
+                        }
+                        
+                        .flex2-text {
+                            padding-right: $base*19;
+                            color: #333333;
+                            line-height: 1.5;
+                            font-size: $fs-m - $base*2;
+    
+                            @media (max-width: $breakpoint-lg-max) {
+                                padding-right: 0;
+                            }
+    
+                            @media (max-width: $breakpoint-xs-max) {
+                                padding-right: 0;
+                                font-size: $fs-xxs;
+                            }
+    
+                            &-list {
+                                &_item {
+                                }
+                            }
                         }
                     }
 
-                    &-text {
-                        padding-right: $base*19;
-                        color: #333333;
-                        line-height: 1.5;
-                        font-size: $fs-m - $base*2;
-
-                        @media (max-width: $breakpoint-lg-max) {
-                            padding-right: 0;
-                        }
-
-                        @media (max-width: $breakpoint-xs-max) {
-                            padding-right: 0;
-                            font-size: $fs-xxs;
-                        }
-                    }
 
                     .btn {
                         margin-bottom: $base*10;
@@ -415,10 +433,11 @@ h3 {
                 background-color: white;
             }
         }
-
+        
         .content {
-
+            
             .content-tab {
+                overflow-y: auto;
                 display: none;
                 padding: 20px;
 
@@ -484,8 +503,16 @@ tr:nth-child(even) {
 }
 
 td {
+    @media (max-width: $breakpoint-md-max) {
+        font-size: $fs-s;
+    }
+
     @media (max-width: $breakpoint-sm-max) {
         font-size: $fs-xs;
+    }
+
+    @media (max-width: $breakpoint-xs-max) {
+        font-size: $fs-xxs - $base;
     }
 }
 
