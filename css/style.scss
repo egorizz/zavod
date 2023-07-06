@@ -625,7 +625,8 @@ td {
         }
 
         .logo {
-
+            display: flex;
+            align-items: center;
             @media (max-width: $breakpoint-lg-max) {
                 margin-left: $base*10;
             }

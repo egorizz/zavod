@@ -681,6 +681,10 @@ tr:nth-child(even) {
     flex-direction: column;
   }
 }
+.section-header-wrap .logo {
+  display: flex;
+  align-items: center;
+}
 @media (max-width: 1199px) {
   .section-header-wrap .logo {
     margin-left: 40px;
