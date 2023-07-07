@@ -376,15 +376,21 @@ h3 {
 .options_another-wrap_alt-text .flex-container {
   display: flex;
   justify-content: space-around;
+  height: 100%;
 }
 @media (max-width: 1199px) {
   .options_another-wrap_alt-text .flex-container {
     flex-direction: column;
-    text-align: center;
   }
 }
 .options_another-wrap_alt-text .flex-container .flex1 {
   padding: 40px 0;
+}
+.options_another-wrap_alt-text .flex-container .flex1-img {
+  height: 100%;
+}
+.options_another-wrap_alt-text .flex-container .flex1-img img {
+  width: 100%;
 }
 @media (max-width: 991px) {
   .options_another-wrap_alt-text .flex-container .flex1-img img {
@@ -394,6 +400,35 @@ h3 {
 @media (max-width: 767px) {
   .options_another-wrap_alt-text .flex-container .flex1-img img {
     width: 240px;
+  }
+}
+@media (max-width: 575px) {
+  .options_another-wrap_alt-text .flex-container .flex1-img img {
+    width: 200px;
+  }
+}
+.options_another-wrap_alt-text .flex-container .flex-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.options_another-wrap_alt-text .flex-container .flex-btn .btn {
+  margin-bottom: 40px;
+  width: 240px;
+  background: #5a5b59;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.options_another-wrap_alt-text .flex-container .flex-btn .btn:hover {
+  background-color: #357ebd;
+}
+@media (max-width: 767px) {
+  .options_another-wrap_alt-text .flex-container .flex-btn .btn {
+    width: 200px;
   }
 }
 .options_another-wrap_alt-text .flex-container .flex2 {
@@ -410,13 +445,14 @@ h3 {
 .options_another-wrap_alt-text .flex-container .flex2-wraper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 450px;
 }
 @media (max-width: 575px) {
   .options_another-wrap_alt-text .flex-container .flex2-wraper {
     width: 240px;
   }
+}
+.options_another-wrap_alt-text .flex-container .flex2-wraper h3 {
+  text-align: center;
 }
 @media (max-width: 1199px) {
   .options_another-wrap_alt-text .flex-container .flex2-wraper h3 {
@@ -444,6 +480,10 @@ h3 {
     padding-right: 0;
     font-size: 10px;
   }
+}
+.options_another-wrap_alt-text .flex-container .flex2-wraper .flex2-text-list {
+  display: flex;
+  flex-direction: column;
 }
 .options_another-wrap_alt-text .flex-container .flex2 .btn {
   margin-bottom: 40px;
@@ -492,6 +532,9 @@ h3 {
   display: inline-block;
   overflow: hidden;
 }
+.options_another-wrap_alt .grid-container .grid-item-img img {
+  width: 100%;
+}
 @media (max-width: 575px) {
   .options_another-wrap_alt .grid-container .grid-item-img img {
     width: 90%;
@@ -517,6 +560,7 @@ h3 {
   margin-top: 40px;
 }
 .slider-wrap .slider {
+  overflow-y: auto;
   background-color: #fff;
   margin: 0 16px;
 }
@@ -580,7 +624,7 @@ td,
 th {
   border: 1px solid #ddd;
   padding: 8px;
-  text-align: left;
+  text-align: center;
 }
 
 tr:nth-child(even) {
@@ -591,6 +635,12 @@ tr:nth-child(even) {
   justify-content: end;
 }
 
+td {
+  text-align: center;
+}
+td:nth-child(1) {
+  text-align: start;
+}
 @media (max-width: 991px) {
   td {
     font-size: 14px;
@@ -608,9 +658,10 @@ tr:nth-child(even) {
 }
 
 .slider-top {
-  position: relative;
+  display: flex;
   width: 600px;
   margin: 0 auto;
+  height: 100%;
 }
 @media (max-width: 767px) {
   .slider-top {
@@ -622,6 +673,10 @@ tr:nth-child(even) {
     width: 200px;
   }
 }
+.slider-top .slider-wrap {
+  display: flex;
+  flex-direction: column;
+}
 
 .main-photo {
   text-align: center;
@@ -630,27 +685,34 @@ tr:nth-child(even) {
 
 .main-photo img {
   max-width: 100%;
-  height: auto;
 }
 
 .preview-photos {
+  flex-basis: 40%;
   display: flex;
   flex-direction: column;
-  position: absolute;
   top: 0;
   right: 0;
   gap: 5px;
   align-items: flex-end;
 }
 
+.wrap-photos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .photo-preview {
-  max-width: 25%;
+  max-width: 100%;
   height: auto;
   cursor: pointer;
+  height: 25%;
 }
 
 .photo-preview.active {
   border: 2px solid red;
+  height: 25%;
 }
 
 .nav-buttons {
@@ -931,6 +993,9 @@ tr:nth-child(even) {
 .outer-equipmen .options .grid-container .grid-item-img {
   display: inline-block;
   overflow: hidden;
+}
+.outer-equipmen .options .grid-container .grid-item-img img {
+  width: 100%;
 }
 @media (max-width: 575px) {
   .outer-equipmen .options .grid-container .grid-item-img img {

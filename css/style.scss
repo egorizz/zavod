@@ -253,16 +253,20 @@ h3 {
             .flex-container {
                 display: flex;
                 justify-content: space-around;
+                height: 100%;
 
                 @media (max-width: $breakpoint-lg-max) {
                     flex-direction: column;
-                    text-align: center;
+                    // text-align: center;
                 }
 
                 .flex1 {
                     padding: $base*10 0;
                     &-img {
+                        height: 100%;
                         img {
+                            width: 100%;
+
                             @media (max-width: $breakpoint-md-max) {
                                 width: $base*95;
                             }
@@ -270,6 +274,36 @@ h3 {
                             @media (max-width: $breakpoint-sm-max) {
                                 width: $base*60;
                             }
+
+                            @media (max-width: $breakpoint-xs-max) {
+                                width: $base*50;
+                            }
+                        }
+                    }
+                }
+
+                .flex-btn {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .btn {
+                        margin-bottom: $base*10;
+                        width: $base*60;
+                        background: #5a5b59;
+                        color: #ffffff;
+                        border: none;
+                        padding: $base*3 $base*5;
+                        cursor: pointer;
+                        transition: $transition;
+
+                        &:hover {
+                            background-color: darken(#428bca, 5%);
+                        }
+
+                        @media (max-width: $breakpoint-sm-max) {
+                            width: $base*50;
                         }
                     }
                 }
@@ -287,14 +321,15 @@ h3 {
                     &-wraper {
                         display: flex;
                         flex-direction: column;
-                        align-items: center;
-                        width: 450px;
+                        // align-items: center;
+                        // width: 450px;
 
                         @media (max-width: $breakpoint-xs-max) {
                             width: 240px;
                         }
 
                         h3 {
+                            text-align: center;
                             @media (max-width: $breakpoint-lg-max) {
                                 padding-right: 0;
                             }
@@ -320,6 +355,9 @@ h3 {
                             }
     
                             &-list {
+                                display: flex;
+                                flex-direction: column;
+                                // align-items: end;
                                 &_item {
                                 }
                             }
@@ -378,6 +416,7 @@ h3 {
                     overflow: hidden;
 
                     img {
+                        width: 100%;
 
                         @media (max-width: $breakpoint-xs-max) {
                             width: 90%;
@@ -411,6 +450,7 @@ h3 {
     // background-color: #f5f5f5;
 
     .slider {
+        overflow-y: auto;
         background-color: #fff;
         margin: 0 $base*4;
 
@@ -491,7 +531,7 @@ td,
 th {
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 tr:nth-child(even) {
@@ -503,6 +543,10 @@ tr:nth-child(even) {
 }
 
 td {
+    &:nth-child(1) {
+        text-align: start;
+    }
+    text-align: center;
     @media (max-width: $breakpoint-md-max) {
         font-size: $fs-s;
     }
@@ -518,9 +562,11 @@ td {
 
 
 .slider-top {
-    position: relative;
+    display: flex;
+    // position: relative;
     width: 600px;
     margin: 0 auto;
+    height: 100%;
 
     @media (max-width: $breakpoint-sm-max) {
         width: 300px;
@@ -528,6 +574,11 @@ td {
 
     @media (max-width: $breakpoint-xs-max) {
         width: 200px;
+    }
+
+    .slider-wrap {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -538,27 +589,36 @@ td {
 
 .main-photo img {
     max-width: 100%;
-    height: auto;
+    // height: 100%;
 }
 
 .preview-photos {
+    flex-basis: 40%;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    // position: absolute;
     top: 0;
     right: 0;
     gap: 5px;
     align-items: flex-end;
 }
 
+.wrap-photos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .photo-preview {
-    max-width: 25%;
+    max-width: 100%;
     height: auto;
     cursor: pointer;
+    height: 25%;
 }
 
 .photo-preview.active {
     border: 2px solid red;
+    height: 25%;
 }
 
 .nav-buttons {
@@ -892,7 +952,7 @@ td {
                     overflow: hidden;
 
                     img {
-
+                        width: 100%;
                         @media (max-width: $breakpoint-xs-max) {
                             width: 90%;
                         }
