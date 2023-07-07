@@ -30,36 +30,51 @@ function changeTab(tabIndex) {
   contentTabs[tabIndex - 1].classList.add('active');
 }
 
-const mainPhoto = document.querySelector('.main-photo img');
-const photoPreviews = Array.from(document.querySelectorAll('.photo-preview'));
-const prevBtn = document.querySelector('.prev-btn');
-const nextBtn = document.querySelector('.next-btn');
+// const mainPhoto = document.querySelector('.main-photo img');
+// const photoPreviews = Array.from(document.querySelectorAll('.photo-preview'));
+// const prevBtn = document.querySelector('.prev-btn');
+// const nextBtn = document.querySelector('.next-btn');
 
-let currentPhoto = 0;
+// let currentPhoto = 0;
 
-function showCurrentPhoto() {
-  mainPhoto.src = photoPreviews[currentPhoto].src;
-  photoPreviews.forEach((preview) => preview.classList.remove('active'));
-  photoPreviews[currentPhoto].classList.add('active');
+// function showCurrentPhoto() {
+//   mainPhoto.src = photoPreviews[currentPhoto].src;
+//   photoPreviews.forEach((preview) => preview.classList.remove('active'));
+//   photoPreviews[currentPhoto].classList.add('active');
+// }
+
+// function selectPhoto(index) {
+//   currentPhoto = index;
+//   showCurrentPhoto();
+// }
+
+// photoPreviews.forEach((preview, index) => {
+//   preview.addEventListener('click', () => selectPhoto(index));
+// });
+
+// prevBtn.addEventListener('click', () => {
+//   currentPhoto = (currentPhoto === 0) ? photoPreviews.length - 1 : currentPhoto - 1;
+//   showCurrentPhoto();
+// });
+
+// nextBtn.addEventListener('click', () => {
+//   currentPhoto = (currentPhoto === photoPreviews.length - 1) ? 0 : currentPhoto + 1;
+//   showCurrentPhoto();
+// });
+
+// showCurrentPhoto();
+const slider = document.querySelector('.slider-new');
+const slides = document.querySelectorAll('.slide');
+const slideWidth = slides[0].clientWidth;
+let slideIndex = 0;
+
+function slide() {
+if (slideIndex === slides.length - 1) {
+slideIndex = 0;
+} else {
+slideIndex++;
+}
+slider.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
 }
 
-function selectPhoto(index) {
-  currentPhoto = index;
-  showCurrentPhoto();
-}
-
-photoPreviews.forEach((preview, index) => {
-  preview.addEventListener('click', () => selectPhoto(index));
-});
-
-prevBtn.addEventListener('click', () => {
-  currentPhoto = (currentPhoto === 0) ? photoPreviews.length - 1 : currentPhoto - 1;
-  showCurrentPhoto();
-});
-
-nextBtn.addEventListener('click', () => {
-  currentPhoto = (currentPhoto === photoPreviews.length - 1) ? 0 : currentPhoto + 1;
-  showCurrentPhoto();
-});
-
-showCurrentPhoto();
+setInterval(slide, 2000);
