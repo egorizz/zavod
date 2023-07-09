@@ -157,7 +157,7 @@ $fs-xxl: 36px;
 // === COMMON ===
 body {
     @include arial;
-    margin: 0;
+    margin: 150px 0 0 0;
 }
 
 .section-outer {
@@ -787,6 +787,7 @@ td {
     left: 0;
     z-index: 10;
     background-color: #fff;
+    margin-bottom: $base*4;
 
     &::before {
         display: none;
@@ -1007,7 +1008,7 @@ td {
 
     .section-equipment {
         margin-bottom: $base*15;
-        padding-top: $base*40;
+        // padding-top: $base*40;
         padding-left: $base*40;
         display: flex;
         align-items: center;

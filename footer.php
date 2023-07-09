@@ -1,187 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/style.css">
-
-    <title>Zavod</title>
-</head>
-
-<body>
-    <!-- HEADER -->
-    <header class="section-outer">
-        <div class="section-inner section-header">
-            <div class="section-header-wrap">
-                <a href="/" class="logo"><img src="/img/logo-new.png" width="198" alt=""></a>
-
-                <div class="header-text">
-                    <div class="header-text-primary">
-                        <div class="header-text-primary-title">ПРОМЫШЛЕННОЕ ФАРМАЦЕВТИЧЕСКОЕ ОБОРУДОВАНИЕ И СЫРЬЕ</div>
-                        <div class="header-text-primary-lang">
-                            <a href="#" class="header-text-primary-lang_item">RUS</a>
-                            <a href="#" class="header-text-primary-lang_item">ENG</a>
-                        </div>
-                    </div>
-
-                    <div class="header-text-secondary">
-                        <ul class="header-text-secondary-wrapper">
-                            <li class="header-text-secondary-wrapper_item">
-                                <a href="#" class="header-text-secondary-wrapper_item-link">
-                                    8-800-555-35-35 <span>СЫРЬЕ</span>
-                                </a>
-                            </li>
-                            <li class="header-text-secondary-wrapper_item">
-                                <a href="#" class="header-text-secondary-wrapper_item-link">
-                                    8-800-555-35-35 <span>ОБОРУДОВАНИЕ</span>
-                                </a>
-                            </li>
-                            <li class="header-text-secondary-wrapper_item">
-                                <a href="#" class="header-text-secondary-wrapper_item-mail">
-                                    info@zavod.ru
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- NAVIGATION -->
-        <div class="section-navigation">
-            <div class="section-inner">
-                <button class="burger">
-                    <span class="burger_line"></span>
-                    <span class="burger_line"></span>
-                    <span class="burger_line"></span>
-                </button>
-                <div class="section-inner-wrap">
-                    <ul class="nav">
-                        <li class="nav_item">
-                            <a href="../../index.html" class="nav_item-link">ОБОРУДОВАНИЕ</a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="/company/index.html" class="nav_item-link">О КОМПАНИИ</a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="/contacts/index.html" class="nav_item-link">КОНТАКТЫ</a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#" class="nav_item-link">
-                                <img src="../../img/icons-search-01-1.png" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- / NAVIGATION -->
-    </header>
-    <!-- / HEADER -->
-
-    <!-- MAIN -->
-    <main>
-        <!-- EQUIPMENT -->
-        <div class="section-outer outer-equipmen">
-            <div class="section-inner">
-                <div class="bread-crumbs">
-                    <div class="bread-crumbs-title">Главная</div>
-                    <div class="bread-crumbs-title">Оборудование</div>
-                    <div class="bread-crumbs-title">Твердые лекарственные формы</div>
-                    <div class="bread-crumbs-title">Таблеточный пресс UNIK I</div>
-                </div>
-            </div>
-
-            <div class="options_another">
-                <div class="options_another-wrap_alt">
-                    <div class="material">
-                        <h1>Таблеточный пресс UNIK I</h1>
-                    </div>
-                    <div class="options_another-wrap_alt-text">
-                        <div class="flex-container">
-                            <div class="flex1">
-                                <a href="#" class="flex1-img">
-                                    <img src="/img/7-7.png" alt="">
-                                </a>
-                            </div>
-                            <div class="flex-btn">
-                                <button type="submit" class="btn">Заказать</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="slider-wrap">
-                <div class="slider">
-                    <div class="tabs">
-                        <div class="tab active" onclick="changeTab(1)">Описание</div>
-                        <div class="tab" onclick="changeTab(2)">Характеристики</div>
-                        <div class="tab" onclick="changeTab(3)">Видео</div>
-                    </div>
-                    <div class="section-inner content">
-                        <div class="content-tab active">
-                            <div class="content-wrap">
-                            </div>
-                        </div>
-                        <div class="content-tab">
-                        </div>
-                        <div class="content-tab"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="options_another">
-                <div class="options_another-wrap_alt">
-                    <div class="material">
-                        <h2>СОПУТСТВУЮЩИЕ ТОВАРЫ</h2>
-                    </div>
-
-                    <div class="grid-container">
-                        <div class="grid-item">
-                            <div class="img-wraper">
-                                <a href="ultravibro/index.html" class="grid-item-img grid-item-img_alt"><img
-                                        src="../../img/another1.jpg" alt=""></a>
-
-                            </div>
-                            <a href="ultravibro/index.html" class="grid-item-text">Оборудование для маркировки</a>
-                        </div>
-                        <div class="grid-item">
-                            <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another2.jpg"
-                                        alt=""></a>
-
-                            </div>
-                            <a href="#" class="grid-item-text">Химический реактор</a>
-                        </div>
-                        <div class="grid-item">
-                            <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another3.jpg"
-                                        alt=""></a>
-
-                            </div>
-                            <a href="#" class="grid-item-text">Автоматический двусторонний этикетировщик</a>
-                        </div>
-                        <div class="grid-item">
-                            <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another4.jpg"
-                                        alt=""></a>
-
-                            </div>
-                            <a href="#" class="grid-item-text">Капсулонаполнительная машина для жидких форм</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- / EQUIPMENT -->
-
-    </main>
-    <!-- / MAIN -->
-
-
     <!-- FOOTER -->
     <footer>
         <div class="section-outer outer-form">
@@ -191,10 +7,9 @@
                         <div class="form-title">ЗАКАЗАТЬ ОБОРУДОВАНИЕ / СЫРЬЕ</div>
                         <div class="form-group">
                             <div class="input-group">
-                                <input type="text" id="name" placeholder="Ваше имя" class="input-group_item" />
-                                <input type="tel" id="demo" placeholder="Ваш телефон" id="telephone"
-                                    class="input-group_item" />
-                                <input type="email" id="email" placeholder="Ваш Email" class="input-group_item" />
+                                <input type="text" id="name" placeholder="Ваше имя" class="input-group_item"/>
+                                <input type="tel" id="demo" placeholder="Ваш телефон" id="telephone" class="input-group_item"/>
+                                <input type="email" id="email" placeholder="Ваш Email" class="input-group_item"/>
                             </div>
                             <textarea id="message" placeholder="Ваше сообщение"></textarea>
                         </div>
@@ -286,7 +101,6 @@
                         </li>
                         <li class="section-menu-right_item-link">
                             <a href="#" class="section-menu-right_item-link-fb">
-                                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                                 <svg fill="#fff" width="35px" height="35px" viewBox="0 0 32 32"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -294,8 +108,7 @@
                                 </svg>
                             </a>
                             <a href="#" class="section-menu-right_item-link-inst">
-                                <?xml version="1.0" encoding="utf-8"?>
-
+    
                                 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                                 <svg fill="#fff" height="28px" width="28px" version="1.1" id="Layer_1"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -308,7 +121,7 @@
                                 </svg>
                             </a>
                             <a href="#" class="section-menu-right_item-link-ytb">
-                                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
                                 <svg fill="#fff" width="35px" height="35px" viewBox="0 0 32 32"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -316,7 +129,6 @@
                                 </svg>
                             </a>
                             <a href="#" class="section-menu-right_item-link-vk">
-                                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                                 <svg fill="#fff" width="32px" height="32px" viewBox="0 0 24 24"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -324,7 +136,6 @@
                                 </svg>
                             </a>
                             <a href="#" class="section-menu-right_item-link-tg">
-                                <?xml version="1.0" encoding="iso-8859-1"?>
                                 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                                 <svg fill="#fff" height="30px" width="30px" version="1.1" id="Layer_1"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -356,8 +167,8 @@
     </footer>
     <!-- / FOOTER -->
 
-    <script src="../../js/jquery-3.7.0.min.js"></script>
-    <script src="../../js/main.js"></script>
+    <script src="/js/jquery-3.7.0.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
