@@ -65,16 +65,53 @@ function changeTab(tabIndex) {
 // showCurrentPhoto();
 const slider = document.querySelector('.slider-new');
 const slides = document.querySelectorAll('.slide');
-const slideWidth = slides[0].clientWidth;
-let slideIndex = 0;
 
-function slide() {
-if (slideIndex === slides.length - 1) {
-slideIndex = 0;
-} else {
-slideIndex++;
-}
-slider.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
+if (slides.length > 0) {
+  const slideWidth = slides[0].clientWidth;
+  let slideIndex = 0;
+
+  function slide() {
+    if (slideIndex === slides.length - 1) {
+      slideIndex = 0;
+    } else {
+      slideIndex++;
+    }
+    slider.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
+  }
+
+  setInterval(slide, 2000);
 }
 
-setInterval(slide, 2000);
+const header = document.querySelector('.outer-header');
+
+document.querySelector('.burger').addEventListener('click', () => {
+  console.log("click")
+  header.classList.toggle('outer-header-active-nav')
+  if (header.classList.contains('outer-header-active-nav')) {
+    hidescroll ();
+  }
+  else {
+    shoScroll ();
+  }
+});
+
+const hidescroll = () => {
+  const scrollWidth = `${getScrollbarWidth()}px`;
+  document.body.style.paddingRight = scrollWidth;
+  document.body.style.overflow = 'hidden';
+
+  document.getElementById('section-navigation').style.paddingRight = scrollWidth;
+};
+
+const shoScroll = () => {
+  document.body.style.paddingRight = '';
+  document.body.style.overflow = 'visible';
+
+  document.getElementById('section-navigation').style.paddingRight = '';
+};
+
+const resetNav = () => {
+  header.classList.remove('outer-header-active-nav')
+  shoScroll();
+}
+window.addEventListener('resize', resetNav);
