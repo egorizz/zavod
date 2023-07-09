@@ -88,10 +88,10 @@ document.querySelector('.burger').addEventListener('click', () => {
   console.log("click")
   header.classList.toggle('outer-header-active-nav')
   if (header.classList.contains('outer-header-active-nav')) {
-    hidescroll ();
+    hidescroll();
   }
   else {
-    shoScroll ();
+    shoScroll();
   }
 });
 
@@ -115,3 +115,21 @@ const resetNav = () => {
   shoScroll();
 }
 window.addEventListener('resize', resetNav);
+
+// Get scrollbar width
+const getScrollbarWidth = () => {
+  const outer = document.createElement('div');
+
+  outer.style.position = 'absolute';
+  outer.style.top = '-9999px'; 
+  outer.style.width = '50px'; 
+  outer.style.height = '50px'; 
+  outer.style.overflow = 'scroll'; 
+  outer.style.visibility = 'hidden';
+
+  document.body.appendChild(outer);
+  const scrollBarWidth = outer.offsetWidth - outer.clientWidth; 
+  document.body.removeChild(outer);
+
+  return scrollBarWidth;
+};
