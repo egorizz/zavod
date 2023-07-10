@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>Zavod</title>
+    <title>Машстройфарм</title>
 </head>
 
 <body>
@@ -39,7 +39,7 @@
                             </li>
                             <li class="header-text-secondary-wrapper_item">
                                 <a href="#" class="header-text-secondary-wrapper_item-mail">
-                                    info@zavod.ru
+                                    info@Машстройфарм.ru
                                 </a>
                             </li>
                         </ul>
