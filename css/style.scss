@@ -992,6 +992,7 @@ td {
                 &-secondary {
                     margin-left: $base * 40;
                     margin-top: $base*3;
+                    // width: 600px;
 
                     @media (max-width: $breakpoint-md-max) {
                         margin-left: $base*10;
@@ -1341,8 +1342,10 @@ td {
                 }
 
                 &-title {
+                    color: #fff;
                     margin-bottom: $base*3;
                     font-size: $fs-xl;
+                    
 
                     @media (max-width: $breakpoint-lg-max) {
                         text-align: center;

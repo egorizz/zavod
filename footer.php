@@ -41,10 +41,10 @@
                             Телефон: <a href="tel:+79107414587" class="section-menu-left_item-link-element">+7 910 741-45-87</a> <br> <a href="tel:+79611767375" class="section-menu-left_item-link-element">+7 961 176-73-75</a>
                         </li>
                         <li class="section-menu-left_item-link">
-                            <a href="mailto:9056703525@mail.ru" class="section-menu-left_item-link-element">E-mail: 9056703525@mail.ru</a>
+                            <a href="mailto:9056703525@mail.ru" class="section-menu-left_item-link-element">9056703525@mail.ru</a>
                         </li>
                         <li class="section-menu-left_item-link">
-                            <a href="mailto:https://m-stroy-i.ru/" class="section-menu-left_item-link-element">E-mail: m-stroy-i.ru</a>
+                            <a href="mailto:https://m-stroy-i.ru/" class="section-menu-left_item-link-element">m-stroy-i.ru</a>
                         </li>
                     </ul>
                 </div>

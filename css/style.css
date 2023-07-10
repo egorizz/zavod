@@ -1208,6 +1208,7 @@ td:nth-child(1) {
   }
 }
 .outer-form .section-form .form-container .form-title {
+  color: #fff;
   margin-bottom: 12px;
   font-size: 30px;
 }
