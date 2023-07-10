@@ -1,4 +1,4 @@
-<? include __DIR__.'\..\..\header.php' ?>
+<?php include realpath(__DIR__.'/../../header.php') ?>
 
     <!-- MAIN -->
     <main>
@@ -194,31 +194,35 @@
                     <div class="grid-container">
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="ultravibro/index.html" class="grid-item-img grid-item-img_alt"><img src="../../img/another1.jpg" alt=""></a>
-                                
+                                <a href="ultravibro/index.html" class="grid-item-img grid-item-img_alt"><img
+                                        src="../../img/another1.jpg" alt=""></a>
+
                             </div>
-                            <a href="ultravibro/index.html" class="grid-item-text">Оборудование для маркировки</a>
+                            <a href="ultravibro/index.html" class="grid-item-text"></a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another2.jpg" alt=""></a>
-                                
+                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another2.jpg"
+                                        alt=""></a>
+
                             </div>
-                            <a href="#" class="grid-item-text">Химический реактор</a>
+                            <a href="#" class="grid-item-text"></a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another3.jpg" alt=""></a>
-                                
+                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another3.jpg"
+                                        alt=""></a>
+
                             </div>
-                            <a href="#" class="grid-item-text">Автоматический двусторонний этикетировщик</a>
+                            <a href="#" class="grid-item-text"></a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another4.jpg" alt=""></a>
-    
+                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another4.jpg"
+                                        alt=""></a>
+
                             </div>
-                            <a href="#" class="grid-item-text">Капсулонаполнительная машина для жидких форм</a>
+                            <a href="#" class="grid-item-text"></a>
                         </div>
                     </div>
                 </div>
@@ -231,4 +235,4 @@
     <!-- / MAIN -->
 
 
-    <? include __DIR__.'\..\..\footer.php' ?>
+    <?php include realpath(__DIR__.'/../../footer.php') ?>

@@ -159,7 +159,7 @@
         <!-- COPYRIGHT -->
         <div class="section-outer outer-copyright">
             <div class="section-inner section-copyright">
-                <div class="section-copyright-text">© Diapazon-Pharm 2014 - 2022</div>
+                <div class="section-copyright-text">© Mashstroypharm 2023</div>
                 <div class="section-copyright-text">Все права защищены</div>
             </div>
         </div>

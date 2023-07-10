@@ -1,4 +1,4 @@
-<? include __DIR__.'\header.php' ?>
+<?php include realpath(__DIR__.'/header.php') ?>
 
     <!-- MAIN -->
     <main>
@@ -20,21 +20,21 @@
                 <div class="grid-container">
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="raw-material-preparation/index.html" class="grid-item-img"><img src="img/grid3.jpg" alt=""></a>
+                            <a href="raw-material-preparation/index.php" class="grid-item-img"><img src="img/grid3.jpg" alt=""></a>
                         </div>
-                        <a href="raw-material-preparation/index.html" class="grid-item-text">Твердые леккарственные формыы</a>
+                        <a href="raw-material-preparation/index.php" class="grid-item-text">Твердые леккарственные формыы</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="/raw-material-preparation/rack/rack.html" class="grid-item-img"><img src="img/grid7.jpg" alt=""></a>
+                            <a href="/raw-material-preparation/rack/rack.php" class="grid-item-img"><img src="img/grid7.jpg" alt=""></a>
                         </div>
-                        <a href="/raw-material-preparation/rack/rack.html" class="grid-item-text">Дополнительное оборудование</a>
+                        <a href="/raw-material-preparation/rack/rack.php" class="grid-item-text">Дополнительное оборудование</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="/spare-parts/index.html" class="grid-item-img"><img src="img/grid11.jpg" alt=""></a>
+                            <a href="/spare-parts/index.php" class="grid-item-img"><img src="img/grid11.jpg" alt=""></a>
                         </div>
-                        <a href="/spare-parts/index.html" class="grid-item-text">Запасные части и комплектующие</a>
+                        <a href="/spare-parts/index.php" class="grid-item-text">Запасные части и комплектующие</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
@@ -100,4 +100,4 @@
     </main>
     <!-- / MAIN -->
 
-    <? include __DIR__.'\footer.php' ?>
+    <?php include realpath(__DIR__.'/footer.php') ?>

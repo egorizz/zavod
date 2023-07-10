@@ -1,4 +1,4 @@
-<? include __DIR__.'\..\..\header.php' ?>
+<?php include realpath(__DIR__.'/../../header.php') ?>
 
     <!-- MAIN -->
     <main>
@@ -17,17 +17,19 @@
                         <h1>ПРАКТИЧНЫЕ СТЕЛЛАЖИ, ШКАФЫ, СТОЛЫ ИЗ НЕРЖАВЕЮЩЕЙ СТАЛИ</h1>
                     </div>
                     <div class="options_another-wrap_alt-text">
-                        <div class="flex-container">
+                        <div class="flex-container-slider">
                             <div class="flex1 flex-none">
-                                <div class="slider-container">
-                                    <div class="slider-new">
-                                        <img src="/img/rack-mini.jpg" alt="Image 1" class="slide" width="479px"
-                                            height="372">
-                                        <img src="/img/table.jpg" alt="Image 2" class="slide">
-                                        <img src="/img/table1.jpg" alt="Image 3" class="slide">
-                                        <img src="/img/table2.jpg" alt="Image 4" class="slide">
-                                        <img src="/img/table3.jpg" alt="Image 5" class="slide">
-                                        <img src="/img/cupboard-mini.jpg" alt="Image 6" class="slide">
+                                <div class="slider-container-wrap">
+                                    <div class="slider-container">
+                                        <div class="slider-new">
+                                            <img src="/img/rack-mini.jpg" alt="Image 1" class="slide" width="479px"
+                                                height="372">
+                                            <img src="/img/table.jpg" alt="Image 2" class="slide">
+                                            <img src="/img/table1.jpg" alt="Image 3" class="slide">
+                                            <img src="/img/table2.jpg" alt="Image 4" class="slide">
+                                            <img src="/img/table3.jpg" alt="Image 5" class="slide">
+                                            <img src="/img/cupboard-mini.jpg" alt="Image 6" class="slide">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -154,48 +156,48 @@
                 </div>
 
                 <div class="options_another">
-                    <div class="options_another-wrap_alt">
-                        <div class="material">
-                            <h2>СОПУТСТВУЮЩИЕ ТОВАРЫ</h2>
-                        </div>
-
-                        <div class="grid-container">
-                            <div class="grid-item">
-                                <div class="img-wraper">
-                                    <a href="ultravibro/index.html" class="grid-item-img grid-item-img_alt"><img
-                                            src="../../img/another1.jpg" alt=""></a>
-
-                                </div>
-                                <a href="ultravibro/index.html" class="grid-item-text">Оборудование для маркировки</a>
-                            </div>
-                            <div class="grid-item">
-                                <div class="img-wraper">
-                                    <a href="#" class="grid-item-img grid-item-img_alt"><img
-                                            src="../../img/another2.jpg" alt=""></a>
-
-                                </div>
-                                <a href="#" class="grid-item-text">Химический реактор</a>
-                            </div>
-                            <div class="grid-item">
-                                <div class="img-wraper">
-                                    <a href="#" class="grid-item-img grid-item-img_alt"><img
-                                            src="../../img/another3.jpg" alt=""></a>
-
-                                </div>
-                                <a href="#" class="grid-item-text">Автоматический двусторонний этикетировщик</a>
-                            </div>
-                            <div class="grid-item">
-                                <div class="img-wraper">
-                                    <a href="#" class="grid-item-img grid-item-img_alt"><img
-                                            src="../../img/another4.jpg" alt=""></a>
-
-                                </div>
-                                <a href="#" class="grid-item-text">Капсулонаполнительная машина для жидких форм</a>
-                            </div>
-                        </div>
+                <div class="options_another-wrap_alt">
+                    <div class="material">
+                        <h2>СОПУТСТВУЮЩИЕ ТОВАРЫ</h2>
                     </div>
 
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <div class="img-wraper">
+                                <a href="ultravibro/index.html" class="grid-item-img grid-item-img_alt"><img
+                                        src="../../img/another1.jpg" alt=""></a>
+
+                            </div>
+                            <a href="ultravibro/index.html" class="grid-item-text"></a>
+                        </div>
+                        <div class="grid-item">
+                            <div class="img-wraper">
+                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another2.jpg"
+                                        alt=""></a>
+
+                            </div>
+                            <a href="#" class="grid-item-text"></a>
+                        </div>
+                        <div class="grid-item">
+                            <div class="img-wraper">
+                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another3.jpg"
+                                        alt=""></a>
+
+                            </div>
+                            <a href="#" class="grid-item-text"></a>
+                        </div>
+                        <div class="grid-item">
+                            <div class="img-wraper">
+                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another4.jpg"
+                                        alt=""></a>
+
+                            </div>
+                            <a href="#" class="grid-item-text"></a>
+                        </div>
+                    </div>
                 </div>
+
+            </div>
             </div>
             <!-- / EQUIPMENT -->
 
@@ -203,4 +205,4 @@
     <!-- / MAIN -->
 
 
-    <? include __DIR__.'\..\..\footer.php' ?>
+    <?php include realpath(__DIR__.'/../../footer.php') ?>

@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/style.css">
-
-    <title>Zavod</title>
-</head>
-
-<body>
-<? include __DIR__.'\..\header.php' ?>
+<?php include realpath(__DIR__.'/../header.php') ?>
 
     <!-- MAIN -->
     <main>
@@ -47,10 +35,10 @@
                             <p>
                                 Адрес: 308023, РФ, Белгородская область, г. Белгород, ул. Студенческая, 24;
                             </p>
-                            <p>
+                            <div class="yandex">
                                 <script type="text/javascript" charset="utf-8" async
                                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A80d5e3be7183fb395a0eb8647c7f34f66a684ad749e47576b4dab296913d1fb6&amp;width=516&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -68,7 +56,7 @@
                                         src="../../img/another1.jpg" alt=""></a>
 
                             </div>
-                            <a href="ultravibro/index.html" class="grid-item-text">Оборудование для маркировки</a>
+                            <a href="ultravibro/index.html" class="grid-item-text"></a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
@@ -76,7 +64,7 @@
                                         alt=""></a>
 
                             </div>
-                            <a href="#" class="grid-item-text">Химический реактор</a>
+                            <a href="#" class="grid-item-text"></a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
@@ -84,7 +72,7 @@
                                         alt=""></a>
 
                             </div>
-                            <a href="#" class="grid-item-text">Автоматический двусторонний этикетировщик</a>
+                            <a href="#" class="grid-item-text"></a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
@@ -92,7 +80,7 @@
                                         alt=""></a>
 
                             </div>
-                            <a href="#" class="grid-item-text">Капсулонаполнительная машина для жидких форм</a>
+                            <a href="#" class="grid-item-text"></a>
                         </div>
                     </div>
                 </div>
@@ -105,4 +93,4 @@
     <!-- / MAIN -->
 
 
-    <? include __DIR__.'\..\footer.php' ?>
+    <?php include realpath(__DIR__.'/../footer.php') ?>

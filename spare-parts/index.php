@@ -1,4 +1,4 @@
-<? include __DIR__.'\..\header.php' ?>
+<?php include realpath(__DIR__.'/../header.php') ?>
 
     <!-- MAIN -->
     <main>
@@ -24,11 +24,11 @@
                     <div class="grid-container">
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/spare-parts/spare-parts.html" class="grid-item-img grid-item-img_alt"><img src="/img/p1.jpg"
+                                <a href="/spare-parts/spare-parts.php" class="grid-item-img grid-item-img_alt"><img src="/img/p1.jpg"
                                         alt=""></a>
 
                             </div>
-                            <a href="/spare-parts/spare-parts.html" class="grid-item-text">Запасные части</a>
+                            <a href="/spare-parts/spare-parts.php" class="grid-item-text">Запасные части</a>
                         </div>
                     </div>
                 </div>
@@ -48,4 +48,4 @@
     <!-- / MAIN -->
 
 
-    <? include __DIR__.'\..\footer.php' ?>
+    <?php include realpath(__DIR__.'/../footer.php') ?>

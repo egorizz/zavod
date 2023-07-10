@@ -1,4 +1,4 @@
-<? include __DIR__.'\..\header.php' ?>
+<?php include realpath(__DIR__.'/../header.php') ?>
 
     <!-- MAIN -->
     <main>
@@ -31,66 +31,66 @@
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="ultravibro/index.html" class="grid-item-img grid-item-img_alt"><img src="../img/grid-item1.jpg" alt=""></a>
+                                <a href="ultravibro/index.php" class="grid-item-img grid-item-img_alt"><img src="../img/grid-item1.jpg" alt=""></a>
                                 
                             </div>
-                            <a href="ultravibro/index.html" class="grid-item-text">Оборудование для маркировки</a>
+                            <a href="ultravibro/index.php" class="grid-item-text">Оборудование для маркировки</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="vibro-high/index.html" class="grid-item-img grid-item-img_alt"><img src="../img/grid-item2.jpg" alt=""></a>
+                                <a href="vibro-high/index.php" class="grid-item-img grid-item-img_alt"><img src="../img/grid-item2.jpg" alt=""></a>
                                 
                             </div>
-                            <a href="vibro-high/index.html" class="grid-item-text">Промышленные центрифуги</a>
+                            <a href="vibro-high/index.php" class="grid-item-text">Промышленные центрифуги</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press1.html" class="grid-item-img grid-item-img_alt"><img src="../img/1.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press1.php" class="grid-item-img grid-item-img_alt"><img src="../img/1.PNG" alt=""></a>
                                 
                             </div>
-                            <a href="/raw-material-preparation/tablet-press/tablet-press1.html" class="grid-item-text">Таблеточный пресс NXi IV</a>
+                            <a href="/raw-material-preparation/tablet-press/tablet-press1.php" class="grid-item-text">Таблеточный пресс NXi IV</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press2.html" class="grid-item-img grid-item-img_alt"><img src="/img/2.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press2.php" class="grid-item-img grid-item-img_alt"><img src="/img/2.PNG" alt=""></a>
 
                             </div>
-                            <a href="/raw-material-preparation/tablet-press/tablet-press2.html" class="grid-item-text">Таблеточный пресс NXi II</a>
+                            <a href="/raw-material-preparation/tablet-press/tablet-press2.php" class="grid-item-text">Таблеточный пресс NXi II</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press3.html" class="grid-item-img grid-item-img_alt"><img src="/img/3.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press3.php" class="grid-item-img grid-item-img_alt"><img src="/img/3.PNG" alt=""></a>
 
                             </div>
-                            <a href="/raw-material-preparation/tablet-press/tablet-press3.html" class="grid-item-text">Таблеточный пресс NXi I</a>
+                            <a href="/raw-material-preparation/tablet-press/tablet-press3.php" class="grid-item-text">Таблеточный пресс NXi I</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press4.html" class="grid-item-img grid-item-img_alt"><img src="/img/4.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press4.php" class="grid-item-img grid-item-img_alt"><img src="/img/4.PNG" alt=""></a>
 
                             </div>
-                            <a href="/raw-material-preparation/tablet-press/tablet-press4.html" class="grid-item-text">Таблеточный пресс UNIK II EC</a>
+                            <a href="/raw-material-preparation/tablet-press/tablet-press4.php" class="grid-item-text">Таблеточный пресс UNIK II EC</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press5.html" class="grid-item-img grid-item-img_alt"><img src="/img/5.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press5.php" class="grid-item-img grid-item-img_alt"><img src="/img/5.PNG" alt=""></a>
 
                             </div>
-                            <a href="/raw-material-preparation/tablet-press/tablet-press5.html" class="grid-item-text">Таблеточный пресс UNIK II SE</a>
+                            <a href="/raw-material-preparation/tablet-press/tablet-press5.php" class="grid-item-text">Таблеточный пресс UNIK II SE</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press6.html" class="grid-item-img grid-item-img_alt"><img src="/img/6.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press6.php" class="grid-item-img grid-item-img_alt"><img src="/img/6.PNG" alt=""></a>
 
                             </div>
-                            <a href="/raw-material-preparation/tablet-press/tablet-press6.html" class="grid-item-text">Таблеточный пресс UNIK I FC</a>
+                            <a href="/raw-material-preparation/tablet-press/tablet-press6.php" class="grid-item-text">Таблеточный пресс UNIK I FC</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press7.html" class="grid-item-img grid-item-img_alt"><img src="/img/7.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press7.php" class="grid-item-img grid-item-img_alt"><img src="/img/7.PNG" alt=""></a>
 
                             </div>
-                            <a href="/raw-material-preparation/tablet-press/tablet-press7.html" class="grid-item-text">Таблеточный пресс UNIK I FC</a>
+                            <a href="/raw-material-preparation/tablet-press/tablet-press7.php" class="grid-item-text">Таблеточный пресс UNIK I FC</a>
                         </div>
                     </div>
 
@@ -210,4 +210,4 @@
     <!-- / MAIN -->
 
 
-    <? include __DIR__.'\..\footer.php' ?>
+    <?php include realpath(__DIR__.'/../footer.php') ?>
