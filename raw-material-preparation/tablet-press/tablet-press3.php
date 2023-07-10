@@ -39,7 +39,7 @@
                     <div class="tabs">
                         <div class="tab active" onclick="changeTab(1)">Описание</div>
                         <div class="tab" onclick="changeTab(2)">Характеристики</div>
-                        <div class="tab" onclick="changeTab(3)">Видео</div>
+                        
                     </div>
                     <div class="section-inner content">
                         <div class="content-tab active">
@@ -179,49 +179,7 @@
                 </div>
             </div>
 
-            <div class="options_another">
-                <div class="options_another-wrap_alt">
-                    <div class="material">
-                        <h2>СОПУТСТВУЮЩИЕ ТОВАРЫ</h2>
-                    </div>
-
-                    <div class="grid-container">
-                        <div class="grid-item">
-                            <div class="img-wraper">
-                                <a href="ultravibro/index.html" class="grid-item-img grid-item-img_alt"><img
-                                        src="../../img/another1.jpg" alt=""></a>
-
-                            </div>
-                            <a href="ultravibro/index.html" class="grid-item-text"></a>
-                        </div>
-                        <div class="grid-item">
-                            <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another2.jpg"
-                                        alt=""></a>
-
-                            </div>
-                            <a href="#" class="grid-item-text"></a>
-                        </div>
-                        <div class="grid-item">
-                            <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another3.jpg"
-                                        alt=""></a>
-
-                            </div>
-                            <a href="#" class="grid-item-text"></a>
-                        </div>
-                        <div class="grid-item">
-                            <div class="img-wraper">
-                                <a href="#" class="grid-item-img grid-item-img_alt"><img src="../../img/another4.jpg"
-                                        alt=""></a>
-
-                            </div>
-                            <a href="#" class="grid-item-text"></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            
         </div>
         <!-- / EQUIPMENT -->
 

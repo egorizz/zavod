@@ -630,7 +630,7 @@ h3 {
                     }
 
                     &:hover {
-                        color: #00A9CB;
+                        color: #007fad;
                     }
                 }
             }
@@ -983,7 +983,7 @@ td {
                             }
 
                             text-decoration: none;
-                            color: rgb(0, 186, 203);
+                            color: #007fad;
                             font-size: $fs-xs;
                         }
                     }
@@ -1028,7 +1028,7 @@ td {
                             }
 
                             &-mail {
-                                color: #428bca;
+                                color: #007fad;
                                 text-decoration: none;
 
                                 @media (max-width: $breakpoint-lg-max) {
@@ -1081,7 +1081,7 @@ td {
                         transition: $transition;
 
                         &:hover {
-                            color: #00A9CB;
+                            color: #007fad;
                         }
                     }
                 }
@@ -1160,6 +1160,7 @@ td {
     .options {
         display: flex;
         padding-left: $base*4;
+        padding-right: $base*4;
 
         @media (max-width: $breakpoint-lg-max) {
             padding-right: $base*4;
@@ -1175,16 +1176,22 @@ td {
 
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             gap: $base*4;
+            width: 100%;
 
             @media (max-width: $breakpoint-lg-max) {
-                grid-template-columns: repeat(2, 0.3fr);
+                grid-template-columns: repeat(3, 1fr);
+                justify-content: center;
+            }
+
+            @media (max-width: $breakpoint-md-max) {
+                grid-template-columns: repeat(2, 1fr);
                 justify-content: center;
             }
 
             @media (max-width: $breakpoint-xs-max) {
-                grid-template-columns: repeat(2, 0.2fr);
+                grid-template-columns: repeat(2, 1fr);
             }
 
             .grid-item {
@@ -1226,7 +1233,7 @@ td {
                     }
 
                     &:hover {
-                        color: #00A9CB;
+                        color: #007fad;
                     }
                 }
             }
@@ -1326,7 +1333,7 @@ td {
                 padding-bottom: $base*9;
                 padding-left: $base*25;
                 padding-right: $base*25;
-                background-color: #00bacb;
+                background-color: #007fad;
 
                 @media (max-width: $breakpoint-xs-max) {
                     padding-left: $base*10;
@@ -1480,7 +1487,6 @@ td {
         &-left {
             display: flex;
             flex-basis: 50%;
-            justify-content: space-around;
 
             @media (max-width: $breakpoint-lg-max) {
                 justify-content: center;
@@ -1509,6 +1515,7 @@ td {
 
                 &-link {
                     margin-top: $base*4;
+                    color: #fff;
 
                     &-element {
                         text-decoration: none;
@@ -1517,7 +1524,7 @@ td {
                         transition: $transition;
 
                         &:hover {
-                            color: #00A9CB;
+                            color: #007fad;
                         }
                     }
 
@@ -1527,7 +1534,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1538,7 +1545,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1549,7 +1556,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1560,7 +1567,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1571,7 +1578,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1582,7 +1589,7 @@ td {
         &-right {
             display: flex;
             flex-basis: 50%;
-            justify-content: space-around;
+            justify-content: end;
 
             @media (max-width: $breakpoint-lg-max) {
                 justify-content: center;
@@ -1619,7 +1626,7 @@ td {
                         transition: $transition;
 
                         &:hover {
-                            color: #00A9CB;
+                            color: #007fad;
                         }
                     }
 
@@ -1629,7 +1636,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1640,7 +1647,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1651,7 +1658,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1662,7 +1669,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }
@@ -1673,7 +1680,7 @@ td {
 
                         &:hover {
                             path {
-                                fill: #00A9CB;
+                                fill: #007fad;
                             }
                         }
                     }

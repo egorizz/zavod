@@ -85,15 +85,6 @@
                         <a href="#" class="grid-item-text">Подготовка сырья</a>
                     </div>
                 </div>
-
-                <div class="container">
-                    <a href="#" class="container_item1">
-                        <img src="img/bannerbad2.jpeg" alt="" class="container_item1-img1">
-                    </a>
-                    <a href="#" class="container_item2">
-                        <img src="img/banner-line2.jpg" alt="" class="container_item2-img2">
-                    </a>
-                </div>
             </div>
         </div>
         <!-- / EQUIPMENT -->

@@ -33,7 +33,7 @@
                         </div>
                     </div>
 
-                    <div class="header-text-secondary">
+                    <div class="header-tex-secondary">
                         <ul class="header-text-secondary-wrapper">
                             <li class="header-text-secondary-wrapper_item">
                                 <a href="#" class="header-text-secondary-wrapper_item-link">
