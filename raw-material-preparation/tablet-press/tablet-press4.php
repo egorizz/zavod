@@ -8,7 +8,7 @@
                 <div class="bread-crumbs">
                     <div class="bread-crumbs-title">Главная</div>
                     <div class="bread-crumbs-title">Оборудование</div>
-                    <div class="bread-crumbs-title">Твердые лекарственныые формы</div>
+                    <div class="bread-crumbs-title">Твердые лекарственные формы</div>
                     <div class="bread-crumbs-title">Таблеточный пресс UNIK II EC</div>
                 </div>
             </div>
