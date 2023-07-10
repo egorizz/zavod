@@ -25,10 +25,6 @@
                     </div>
 
                     <div class="grid-container">
-                        <div class="grid-item grid-item_alt">
-                            <a href="#" class="grid-item-img"><img src="" alt=""></a>
-                            <a href="#" class="grid-item-text">Химические реакторы</a>
-                        </div>
                         <div class="grid-item">
                             <div class="img-wraper">
                                 <a href="ultravibro/index.php" class="grid-item-img grid-item-img_alt"><img src="../img/grid-item1.jpg" alt=""></a>
