@@ -29,17 +29,17 @@
                         <ul class="header-text-secondary-wrapper">
                             <li class="header-text-secondary-wrapper_item">
                                 <a href="#" class="header-text-secondary-wrapper_item-link">
-                                    8-800-555-35-35 <span>СЫРЬЕ</span>
+                                    +7 910 741-45-87
                                 </a>
                             </li>
                             <li class="header-text-secondary-wrapper_item">
                                 <a href="#" class="header-text-secondary-wrapper_item-link">
-                                    8-800-555-35-35 <span>ОБОРУДОВАНИЕ</span>
+                                    +7 961 176-73-75
                                 </a>
                             </li>
                             <li class="header-text-secondary-wrapper_item">
                                 <a href="#" class="header-text-secondary-wrapper_item-mail">
-                                    info@Машстройфарм.ru
+                                    9056703525@mail.ru
                                 </a>
                             </li>
                         </ul>
