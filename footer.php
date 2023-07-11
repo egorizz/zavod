@@ -76,7 +76,7 @@
     <!-- / FOOTER -->
 
     <script src="/js/jquery-3.7.0.min.js"></script>
-    <script src="/js/main.js?v=2"></script>
+    <script src="/js/main.js?v=3"></script>
 </body>
 
 </html>

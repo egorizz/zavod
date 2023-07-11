@@ -17,7 +17,7 @@ window.onload = () => {
   //         $('.section-outer').removeClass('scrolled');
   //     }
   // });
-  function changeTab(tabIndex) {
+  window.changeTab = (tabIndex) => {
     // Получаем все вкладки и их содержимое
     var tabs = document.getElementsByClassName('tab');
     var contentTabs = document.getElementsByClassName('content-tab');
