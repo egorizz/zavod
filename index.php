@@ -7,8 +7,8 @@
             <div class="equipment-wrap">
                 <div class="section-inner">
                     <div class="bread-crumbs">
-                        <div class="bread-crumbs-title">Главная</div>
-                        <div class="bread-crumbs-title">Оборудование</div>
+                        <div class="bread-crumbs-index">Главная</div>
+                        <div class="bread-crumbs-index">Оборудование</div>
                     </div>
                 </div>
                 <div class="section-inner section-equipment">

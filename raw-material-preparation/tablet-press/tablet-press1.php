@@ -3,7 +3,7 @@
     <!-- MAIN -->
     <main>
         <!-- EQUIPMENT -->
-        <div class="section-outer outer-equipmen">
+        <div class="section-outer outer-equipment">
             <div class="section-inner">
                 <div class="bread-crumbs">
                     <div class="bread-crumbs-title">Главная</div>

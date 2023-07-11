@@ -352,10 +352,13 @@ h3 {
     @media (max-width: $breakpoint-lg-max) {
         padding-left: $base*4;
     }
+
+    &-index {
+        color: #fff;
+    }
     
     &-title {
         position: relative;
-        color: #fff;
 
         &:not(:first-child) {
             margin-left: $base*4;
