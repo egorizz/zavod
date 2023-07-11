@@ -1497,10 +1497,12 @@ a {
 
             @media (max-width: $breakpoint-lg-max) {
                 justify-content: center;
+                padding-left: $base*4;
+                padding-right: $base*4;
             }
 
             @media (max-width: $breakpoint-md-max) {
-                justify-content: space-around;
+                justify-content: center;
             }
 
             @media (max-width: $breakpoint-xs-max) {
@@ -1509,6 +1511,7 @@ a {
             }
 
             &_item {
+
                 @include list-null();
 
                 &:not(:first-child) {
@@ -1521,8 +1524,13 @@ a {
 
 
                 &-link {
+                    display: flex;
                     margin-top: $base*4;
                     color: #fff;
+
+                    @media (max-width: $breakpoint-md-max) {
+                        justify-content: center;
+                    }
 
                     &-element {
                         text-decoration: none;
@@ -1532,6 +1540,10 @@ a {
 
                         &:hover {
                             color: #007fad;
+                        }
+
+                        @media (max-width: $breakpoint-md-max) {
+                            text-align: center;
                         }
                     }
 
