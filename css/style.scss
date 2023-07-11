@@ -840,6 +840,10 @@ td {
     // }
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 
@@ -1622,7 +1626,11 @@ td {
                 &-link {
                     margin-top: $base*4;
 
+
                     &-element {
+                        &:not(:last-child) {
+                            margin-right: $base*4;
+                        }
                         text-decoration: none;
                         color: #fff;
                         font-size: $fs-s;

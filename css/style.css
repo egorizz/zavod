@@ -787,6 +787,10 @@ td:nth-child(1) {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .outer-header {
   position: fixed;
   top: 0;
@@ -1465,6 +1469,9 @@ td:nth-child(1) {
   color: #fff;
   font-size: 14px;
   transition: 0.2s;
+}
+.outer-menu .section-menu-right_item-link-element:not(:last-child) {
+  margin-right: 16px;
 }
 .outer-menu .section-menu-right_item-link-element:hover {
   color: #007fad;
