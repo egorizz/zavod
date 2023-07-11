@@ -348,14 +348,14 @@ h3 {
     margin-bottom: $base*10 ;
     padding-top: $base*10;
     display: flex;
-
+    
     @media (max-width: $breakpoint-lg-max) {
         padding-left: $base*4;
     }
-
+    
     &-title {
         position: relative;
-        color: #777777;
+        color: #fff;
 
         &:not(:first-child) {
             margin-left: $base*4;
@@ -1134,6 +1134,10 @@ a {
                 flex-direction: column;
                 padding-left: 0;
                 text-align: center;
+            }
+
+            @media (max-width: $breakpoint-xs-max) {
+                padding: 0;
             }
 
             .text {

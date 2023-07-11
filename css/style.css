@@ -393,7 +393,7 @@ h3 {
 }
 .bread-crumbs-title {
   position: relative;
-  color: #777777;
+  color: #fff;
 }
 .bread-crumbs-title:not(:first-child) {
   margin-left: 16px;
@@ -1005,6 +1005,11 @@ a {
     flex-direction: column;
     padding-left: 0;
     text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  .outer-equipment .equipment-wrap .section-equipment {
+    padding: 0;
   }
 }
 .outer-equipment .equipment-wrap .section-equipment .text {
