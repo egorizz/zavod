@@ -348,15 +348,34 @@ h3 {
     margin-bottom: $base*10 ;
     padding-top: $base*10;
     display: flex;
-    
+
     @media (max-width: $breakpoint-lg-max) {
         padding-left: $base*4;
     }
 
     &-index {
         color: #fff;
+
+        position: relative;
+
+        &:not(:first-child) {
+            margin-left: $base*4;
+        }
+
+        &:not(:first-child)::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 1px;
+            background-color: #fff;
+            left: -10px;
+        }
+
+        @media (max-width: $breakpoint-sm-max) {
+            font-size: $fs-xxs - $base/2;
+        }
     }
-    
+
     &-title {
         position: relative;
 
@@ -1366,6 +1385,8 @@ a {
                 padding-right: $base*25;
                 background-color: #007fad;
 
+
+
                 @media (max-width: $breakpoint-xs-max) {
                     padding-left: $base*10;
                     padding-right: $base*10;
@@ -1402,6 +1423,7 @@ a {
                     margin-bottom: $base*8;
                     display: flex;
                     justify-content: space-between;
+                    width: 100%;
 
                     @media (max-width: $breakpoint-lg-max) {
                         flex-direction: column;
@@ -1412,7 +1434,8 @@ a {
                         display: flex;
                         flex-direction: column;
                         margin-right: $base*5;
-                        flex-grow: 0.5;
+                        // flex-grow: 0.5;
+                        width: 50%;
 
                         @media (max-width: $breakpoint-lg-max) {
                             width: 100%;
@@ -1424,33 +1447,45 @@ a {
                             border-radius: $base;
                             border: none;
                             margin-bottom: $base*3;
-                            flex-grow: 0.4;
+                            // flex-grow: 0.4;
                             height: 30px;
                         }
 
                     }
 
-                    textarea {
-                        padding-top: $base*4;
-                        padding-left: $base*4;
-                        border-radius: $base;
-                        border: none;
-                        flex-grow: 0.5;
-                        height: $base*26;
-
+                    .textarea {
+                        display: flex;
+                        flex-direction: column;
+                        // margin-left: $base*5;
+                        // flex-grow: 0.5;
+                        width: 50%;
                         @media (max-width: $breakpoint-lg-max) {
-                            width: 98%;
+                            width: 100%;
+                            // padding: 0 16px;
+                            // padding-top: 0;
+                            // padding-left: 0;
                         }
 
-                        @media (max-width: $breakpoint-md-max) {
-                            width: 96%;
+                        textarea {
+                            padding-top: $base*4;
+                            padding-left: $base*4;
+                            border-radius: $base;
+                            border: none;
+                            // flex-grow: 0.5;
+                            height: $base*26;
+    
+    
+                            // @media (max-width: $breakpoint-md-max) {
+                            //     width: 96%;
+                            // }
+    
+                            // @media (max-width: $breakpoint-xs-max) {
+                            //     width: 96%;
+                            // }
+    
                         }
-
-                        @media (max-width: $breakpoint-xs-max) {
-                            width: 96%;
-                        }
-
                     }
+
 
                 }
 

@@ -11,7 +11,9 @@
                                 <input type="tel" id="demo" placeholder="Ваш телефон" id="telephone" class="input-group_item"/>
                                 <input type="email" id="email" placeholder="Ваш Email" class="input-group_item"/>
                             </div>
-                            <textarea id="message" placeholder="Ваше сообщение"></textarea>
+                            <div class="textarea">
+                                <textarea id="message" placeholder="Ваше сообщение"></textarea>
+                            </div>
                         </div>
                         <div class="checkbox-group">
                             <div class="checkbox-consent">
@@ -44,7 +46,7 @@
                             <a href="mailto:9056703525@mail.ru" class="section-menu-left_item-link-element">9056703525@mail.ru</a>
                         </li>
                         <li class="section-menu-left_item-link">
-                            <a href="mailto:https://m-stroy-i.ru/" class="section-menu-left_item-link-element">m-stroy-i.ru</a>
+                            <a href="https://m-stroy-i.ru/" class="section-menu-left_item-link-element">m-stroy-i.ru</a>
                         </li>
                     </ul>
                 </div>

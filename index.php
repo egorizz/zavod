@@ -24,7 +24,7 @@
                         <div class="img-wraper">
                             <a href="raw-material-preparation/index.php" class="grid-item-img"><img src="img/grid3.jpg" alt=""></a>
                         </div>
-                        <a href="raw-material-preparation/index.php" class="grid-item-text">Твердые леккарственные формыы</a>
+                        <a href="raw-material-preparation/index.php" class="grid-item-text">Твердые лекарственные формы</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
