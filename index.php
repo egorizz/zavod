@@ -3,16 +3,18 @@
     <!-- MAIN -->
     <main>
         <!-- EQUIPMENT -->
-        <div class="section-outer outer-equipmen">
-            <div class="section-inner">
-                <div class="bread-crumbs">
-                    <div class="bread-crumbs-title">Главная</div>
-                    <div class="bread-crumbs-title">Оборудование</div>
+        <div class="section-outer outer-equipment">
+            <div class="equipment-wrap">
+                <div class="section-inner">
+                    <div class="bread-crumbs">
+                        <div class="bread-crumbs-title">Главная</div>
+                        <div class="bread-crumbs-title">Оборудование</div>
+                    </div>
                 </div>
-            </div>
-            <div class="section-inner section-equipment">
-                <img src="img/icon-oborud-04-2-1.png" alt="">
-                <div class="text"><span class="span-text">ОБОРУДОВАНИЕ</span><br> ДЛЯ ФАРМАЦЕВТИЧЕСКОГО ПРОИЗВОДСТВА
+                <div class="section-inner section-equipment">
+                    <!-- <img src="img/icon-oborud-04-2-1.png" alt=""> -->
+                    <div class="text"><span class="span-text">ОБОРУДОВАНИЕ ДЛЯ:</span><br> ФАРМАЦЕВТИКИ, КОСМЕТОЛОГИИ, ПИЩЕВОЙ ОТРАСЛИ, ХИМИЧЕСКОЙ ОТРАСЛИ, МЕДИКО-БИОЛОГИЧЕСКИХ ИССЛЕДОВАНИЙ, ЛАБОРАТОРНЫХ ИСПЫТАНИЙ
+                    </div>
                 </div>
             </div>
 
