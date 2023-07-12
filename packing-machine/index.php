@@ -33,7 +33,7 @@
                     <div class="grid-item">
                         <div class="img-wraper">
                             <a href="/packing-machine/packing-machine1.php/"
-                                class="grid-item-img grid-item-img_alt"><img src="/img/packing1.png/" alt=""></a>
+                                class="grid-item-img grid-item-img_alt"><img src="/img/packing1.png" alt=""></a>
 
                         </div>
                         <a href="/packing-machine/packing-machine1.php/" class="grid-item-text">Стандартная упаковочная

@@ -34,7 +34,7 @@
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="/packing-machine/" class="grid-item-img"><img src="img/packing2.png/" alt=""></a>
+                            <a href="/packing-machine/" class="grid-item-img"><img src="img/packing2.png" alt=""></a>
                         </div>
                         <a href="/packing-machine/" class="grid-item-text">Упаковочные машины</a>
                     </div>
