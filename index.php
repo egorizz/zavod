@@ -22,21 +22,21 @@
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
+                            <a href="/packing-machine/" class="grid-item-img"><img src="img/packing2.png" alt=""></a>
+                        </div>
+                        <a href="/packing-machine/" class="grid-item-text">Упаковочные машины</a>
+                    </div>
+                    <div class="grid-item">
+                        <div class="img-wraper">
                             <a href="/raw-material-preparation/rack/rack.php" class="grid-item-img"><img src="img/cupboard.jpg" alt=""></a>
                         </div>
-                        <a href="/raw-material-preparation/rack/rack.php" class="grid-item-text">Дополнительное оборудование</a>
+                        <a href="/raw-material-preparation/rack/rack.php" class="grid-item-text">Мебель по стандартам GMP</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
                             <a href="/spare-parts/index.php" class="grid-item-img"><img src="img/p1.jpg" alt=""></a>
                         </div>
                         <a href="/spare-parts/index.php" class="grid-item-text">Запасные части и комплектующие</a>
-                    </div>
-                    <div class="grid-item">
-                        <div class="img-wraper">
-                            <a href="/packing-machine/" class="grid-item-img"><img src="img/packing2.png" alt=""></a>
-                        </div>
-                        <a href="/packing-machine/" class="grid-item-text">Упаковочные машины</a>
                     </div>
                 </div>
             </div>
