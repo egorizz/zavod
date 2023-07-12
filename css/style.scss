@@ -54,7 +54,7 @@ $fs-xxl: 36px;
 
 // === SLIDER ===
 
-.flex-container-slider {
+.flex-container-block-slider {
 
     display: flex;
     justify-content: center;
@@ -425,6 +425,158 @@ h3 {
             justify-content: center;
             background-color: #fff;
 
+            .flex-container-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                height: 100%;
+
+                @media (max-width: $breakpoint-lg-max) {
+                    flex-direction: column;
+                    // width: $base*180;
+                }
+
+                .flex1 {
+                    display: flex;
+                    padding: $base*10 0;
+
+                    .flex-img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    &-img {
+                        height: 100%;
+                        width: 100%;
+
+
+                        img {
+                            width: 100%;
+
+                            @media (max-width: $breakpoint-lg-max) {
+                                width: $base*95;
+                            }
+
+                            @media (max-width: $breakpoint-md-max) {
+                                width: $base*95;
+                            }
+
+                            @media (max-width: $breakpoint-sm-max) {
+                                width: $base*60;
+                            }
+
+                            @media (max-width: $breakpoint-xs-max) {
+                                width: $base*50;
+                            }
+                        }
+                    }
+                }
+
+                .flex-none {
+                    display: block;
+                }
+
+                .flex-btn {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .btn {
+                        margin-top: $base*15;
+                        margin-bottom: $base*10;
+                        width: $base*60;
+                        background: #5a5b59;
+                        color: #ffffff;
+                        border: none;
+                        padding: $base*3 $base*5;
+                        cursor: pointer;
+                        transition: $transition;
+
+                        &:hover {
+                            background-color: darken(#428bca, 5%);
+                        }
+
+                        @media (max-width: $breakpoint-sm-max) {
+                            width: $base*50;
+                        }
+                    }
+                }
+
+                .flex2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    @media (max-width: $breakpoint-lg-max) {
+                        align-items: center;
+                    }
+
+                    &-wraper {
+                        display: flex;
+                        flex-direction: column;
+
+                        @media (max-width: $breakpoint-xs-max) {
+                            width: 240px;
+                        }
+
+                        h3 {
+                            text-align: center;
+
+                            @media (max-width: $breakpoint-lg-max) {
+                                padding-right: 0;
+                            }
+
+                            @media (max-width: $breakpoint-xs-max) {
+                                padding-right: 0;
+                            }
+                        }
+
+                        .flex2-text {
+                            padding-right: $base*19;
+                            color: #333333;
+                            line-height: 1.5;
+                            font-size: $fs-m - $base*2;
+
+                            @media (max-width: $breakpoint-lg-max) {
+                                padding-right: 0;
+                            }
+
+                            @media (max-width: $breakpoint-xs-max) {
+                                padding-right: 0;
+                                font-size: $fs-xxs;
+                            }
+
+                            &-list {
+                                display: flex;
+                                flex-direction: column;
+                                // align-items: end;
+                            }
+                        }
+                    }
+
+
+                    .btn {
+                        margin-bottom: $base*10;
+                        width: $base*30;
+                        background: #5a5b59;
+                        color: #ffffff;
+                        border: none;
+                        padding: $base*3 $base*5;
+                        cursor: pointer;
+                        transition: $transition;
+
+                        &:hover {
+                            background-color: darken(#428bca, 5%);
+                        }
+                    }
+                }
+            }
+
             .flex-container {
                 display: flex;
                 justify-content: space-around;
@@ -433,35 +585,13 @@ h3 {
                 @media (max-width: $breakpoint-lg-max) {
                     flex-direction: column;
                     width: $base*180;
-                    // text-align: center;
                 }
 
+
                 .flex1 {
-
-                    // width: 100%;
-
-                    // @media (max-width: $breakpoint-lg-max) {
-                    //     width: $base*95;
-                    // }
-
-                    // @media (max-width: $breakpoint-md-max) {
-                    //     width: $base*95;
-                    // }
-
-                    // @media (max-width: $breakpoint-sm-max) {
-                    //     width: $base*60;
-                    // }
-
-                    // @media (max-width: $breakpoint-xs-max) {
-                    //     width: $base*50;
-                    // }
                     display: flex;
                     padding: $base*10 0;
 
-
-                    // @media (max-width: $breakpoint-lg-max) {
-                    //     width: 800px;
-                    // }
                     .flex-img {
                         width: 100%;
 
@@ -539,8 +669,6 @@ h3 {
                     &-wraper {
                         display: flex;
                         flex-direction: column;
-                        // align-items: center;
-                        // width: 450px;
 
                         @media (max-width: $breakpoint-xs-max) {
                             width: 240px;
@@ -600,65 +728,66 @@ h3 {
             }
         }
 
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: $base*4;
+    }
 
-            @media (max-width: $breakpoint-lg-max) {
-                grid-template-columns: repeat(2, 0.3fr);
-                justify-content: center;
-            }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: $base*4;
+
+        @media (max-width: $breakpoint-lg-max) {
+            grid-template-columns: repeat(2, 0.3fr);
+            justify-content: center;
+        }
+
+        @media (max-width: $breakpoint-xs-max) {
+            grid-template-columns: repeat(2, 0.2fr);
+        }
+
+        .grid-item {
+            display: flex;
+            flex-direction: column;
+            // justify-content: flex-end;
+            background-color: #ffff;
+            padding: $base*5;
+            font-size: $fs-xl;
+            text-align: center;
+            line-height: 1;
 
             @media (max-width: $breakpoint-xs-max) {
-                grid-template-columns: repeat(2, 0.2fr);
+                line-height: 1;
             }
 
-            .grid-item {
-                display: flex;
-                flex-direction: column;
-                // justify-content: flex-end;
-                background-color: #ffff;
-                padding: $base*5;
-                font-size: $fs-xl;
-                text-align: center;
-                line-height: 1;
+            &-img {
+                display: inline-block;
+                overflow: hidden;
 
-                @media (max-width: $breakpoint-xs-max) {
-                    line-height: 1;
-                }
-
-                &-img {
-                    display: inline-block;
-                    overflow: hidden;
-
-                    img {
-                        width: 100%;
-
-                        @media (max-width: $breakpoint-xs-max) {
-                            width: 90%;
-                        }
-                    }
-                }
-
-                &-text {
-                    text-decoration: none;
-                    color: inherit;
-                    font-size: $fs-m - $base;
-                    transition: $transition;
-                    font-weight: bold;
+                img {
+                    width: 100%;
 
                     @media (max-width: $breakpoint-xs-max) {
-                        font-size: $fs-xxs;
-                    }
-
-                    &:hover {
-                        color: #007fad;
+                        width: 90%;
                     }
                 }
             }
 
+            &-text {
+                text-decoration: none;
+                color: inherit;
+                font-size: $fs-m - $base;
+                transition: $transition;
+                font-weight: bold;
+
+                @media (max-width: $breakpoint-xs-max) {
+                    font-size: $fs-xxs;
+                }
+
+                &:hover {
+                    color: #007fad;
+                }
+            }
         }
+
     }
 }
 
@@ -779,28 +908,6 @@ td {
     }
 }
 
-
-// .slider-top {
-//     display: flex;
-//     // position: relative;
-//     width: 600px;
-//     margin: 0 auto;
-//     height: 100%;
-
-//     @media (max-width: $breakpoint-sm-max) {
-//         width: 300px;
-//     }
-
-//     @media (max-width: $breakpoint-xs-max) {
-//         width: 200px;
-//     }
-
-//     .slider-wrap {
-//         display: flex;
-//         flex-direction: column;
-//     }
-// }
-
 .main-photo {
     text-align: center;
     margin-bottom: 10px;
@@ -866,40 +973,8 @@ td {
 
 a {
     text-decoration: none;
+    color: black;
 }
-
-
-
-
-
-
-
-// .fixed {
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     z-index: 99;
-// }
-
-// .header.scrolled .header-text-primary-title {
-//     display: none;
-// }
-
-// .header.scrolled .logo img {
-//     width: 150px;
-//     height: auto;
-// }
-
-// .header.scrolled .header-text-secondary {
-//     display: flex;
-//     Flex-direction: row;
-// }
-
-// .header.scrolled .section-navigation {
-//     position: relative;
-//     top: 0;
-// }
 
 // === / COMMON ===
 
@@ -1000,9 +1075,14 @@ a {
 
                     &-lang {
                         display: flex;
+                        // padding-right: $base*4;
 
                         @media (max-width: $breakpoint-lg-max) {
                             padding-right: $base*4;
+                        }
+
+                        @media (max-width: $breakpoint-sm-max) {
+                            padding-top: $base*2;
                         }
 
                         &_item {
@@ -1459,6 +1539,7 @@ a {
                         // margin-left: $base*5;
                         // flex-grow: 0.5;
                         width: 50%;
+
                         @media (max-width: $breakpoint-lg-max) {
                             width: 100%;
                             // padding: 0 16px;
@@ -1473,16 +1554,16 @@ a {
                             border: none;
                             // flex-grow: 0.5;
                             height: $base*26;
-    
-    
+
+
                             // @media (max-width: $breakpoint-md-max) {
                             //     width: 96%;
                             // }
-    
+
                             // @media (max-width: $breakpoint-xs-max) {
                             //     width: 96%;
                             // }
-    
+
                         }
                     }
 

@@ -6,7 +6,11 @@
         <div class="section-outer outer-equipment">
             <div class="section-inner">
                 <div class="bread-crumbs">
-                    <div class="bread-crumbs-title">Главная</div>
+                    <div class="bread-crumbs-title">
+                        <a href="/">
+                            Главная
+                        </a>
+                    </div>
                     <div class="bread-crumbs-title">Дополнительное оборудование</div>
                 </div>
             </div>
@@ -17,7 +21,7 @@
                         <h1>ПРАКТИЧНЫЕ СТЕЛЛАЖИ, ШКАФЫ, СТОЛЫ ИЗ НЕРЖАВЕЮЩЕЙ СТАЛИ</h1>
                     </div>
                     <div class="options_another-wrap_alt-text">
-                        <div class="flex-container-slider">
+                        <div class="flex-container-block-slider">
                             <div class="flex1 flex-none">
                                 <div class="slider-container-wrap">
                                     <div class="slider-container">

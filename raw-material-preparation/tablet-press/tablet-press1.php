@@ -6,9 +6,17 @@
         <div class="section-outer outer-equipment">
             <div class="section-inner">
                 <div class="bread-crumbs">
-                    <div class="bread-crumbs-title">Главная</div>
-                    <div class="bread-crumbs-title">Оборудование</div>
-                    <div class="bread-crumbs-title">Твердые лекарственные формы</div>
+                    <div class="bread-crumbs-title">
+                        <a href="/">
+                            Главная
+                        </a>
+                    </div>
+                    
+                    <div class="bread-crumbs-title">
+                        <a href="/raw-material-preparation/">
+                            Твердые лекарственные формы
+                        </a>
+                    </div>
                     <div class="bread-crumbs-title">Таблеточный пресс NXi IV</div>
                 </div>
             </div>
@@ -19,7 +27,7 @@
                         <h1>Таблеточный пресс NXi IV</h1>
                     </div>
                     <div class="options_another-wrap_alt-text">
-                        <div class="flex-container">
+                        <div class="flex-container-block">
                             <div class="flex1">
                                 <a href="#" class="flex1-img">
                                     <img src="/img/1-1.jpg" alt="">

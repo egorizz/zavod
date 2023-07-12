@@ -6,8 +6,16 @@
         <div class="section-outer outer-equipment">
             <div class="section-inner">
                 <div class="bread-crumbs">
-                    <div class="bread-crumbs-title">Главная</div>
-                    <div class="bread-crumbs-title">Запасные части</div>
+                    <div class="bread-crumbs-title">
+                        <a href="/">
+                            Главная
+                        </a>
+                    </div>
+                    <div class="bread-crumbs-title">
+                        <a href="/spare-parts/">
+                            Запасные части
+                        </a>
+                    </div>
                     <div class="bread-crumbs-title">Пуансоны</div>
                 </div>
             </div>
@@ -18,7 +26,7 @@
                         <h1>Пуансоны</h1>
                     </div>
                     <div class="options_another-wrap_alt-text">
-                        <div class="flex-container">
+                        <div class="flex-container-block">
                             <div class="flex1">
                                 <div class="flex-img">
                                     <img src="/img/p.png" alt="Image 2">

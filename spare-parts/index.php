@@ -6,7 +6,11 @@
         <div class="section-outer outer-equipment">
             <div class="section-inner">
                 <div class="bread-crumbs">
-                    <div class="bread-crumbs-title">Главная</div>
+                    <div class="bread-crumbs-title">
+                        <a href="/">
+                            Главная
+                        </a>
+                    </div>
                     <div class="bread-crumbs-title">Запасные части</div>
                 </div>
             </div>

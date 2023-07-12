@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css?v=10">
+    <link rel="stylesheet" href="/css/style.css?v=11">
 
     <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -66,7 +66,7 @@
                 <div class="section-inner-wrap">
                     <ul class="nav">
                         <li class="nav_item">
-                            <a href="/" class="nav_item-link">ОБОРУДОВАНИЕ</a>
+                            <a href="/" class="nav_item-link">ГЛАВНАЯ</a>
                         </li>
                         <li class="nav_item">
                             <a href="/company/" class="nav_item-link">О КОМПАНИИ</a>
