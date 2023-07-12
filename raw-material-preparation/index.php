@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="grid-container">
-                        <div class="grid-item">
+                        <!-- <div class="grid-item">
                             <div class="img-wraper">
                                 <a href="ultravibro/index.php" class="grid-item-img grid-item-img_alt"><img src="../img/grid-item1.jpg" alt=""></a>
                                 
@@ -43,7 +43,7 @@
                                 
                             </div>
                             <a href="vibro-high/index.php" class="grid-item-text">Промышленные центрифуги</a>
-                        </div>
+                        </div> -->
                         <div class="grid-item">
                             <div class="img-wraper">
                                 <a href="/raw-material-preparation/tablet-press/tablet-press1.php" class="grid-item-img grid-item-img_alt"><img src="../img/1.PNG" alt=""></a>

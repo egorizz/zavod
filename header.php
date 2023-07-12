@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css?v=11">
+    <link rel="stylesheet" href="/css/style.css?v=1">
 
     <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -26,7 +26,7 @@
 
                 <div class="header-text">
                     <div class="header-text-primary">
-                        <div class="header-text-primary-title">ПРОМЫШЛЕННОЕ ФАРМАЦЕВТИЧЕСКОЕ ОБОРУДОВАНИЕ И СЫРЬЕ</div>
+                        <div class="header-text-primary-title">ПРОМЫШЛЕННОЕ ФАРМАЦЕВТИЧЕСКОЕ ОБОРУДОВАНИЕ</div>
                         <div class="header-text-primary-lang">
                             <a href="#" class="header-text-primary-lang_item">RUS</a>
                             <a href="#" class="header-text-primary-lang_item">ENG</a>

@@ -1288,6 +1288,7 @@ a {
 }
 .outer-equipment .options .grid-container .grid-item-img img {
   width: 100%;
+  height: 100%;
 }
 @media (max-width: 575px) {
   .outer-equipment .options .grid-container .grid-item-img img {
