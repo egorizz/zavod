@@ -46,49 +46,49 @@
                         </div> -->
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press1.php" class="grid-item-img grid-item-img_alt"><img src="../img/1.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press1.php" class="grid-item-img grid-item-img_alt"><img src="../img/1.png" alt=""></a>
                                 
                             </div>
                             <a href="/raw-material-preparation/tablet-press/tablet-press1.php" class="grid-item-text">Таблеточный пресс NXi IV</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press2.php" class="grid-item-img grid-item-img_alt"><img src="/img/2.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press2.php" class="grid-item-img grid-item-img_alt"><img src="/img/2.png" alt=""></a>
 
                             </div>
                             <a href="/raw-material-preparation/tablet-press/tablet-press2.php" class="grid-item-text">Таблеточный пресс NXi II</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press3.php" class="grid-item-img grid-item-img_alt"><img src="/img/3.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press3.php" class="grid-item-img grid-item-img_alt"><img src="/img/3.png" alt=""></a>
 
                             </div>
                             <a href="/raw-material-preparation/tablet-press/tablet-press3.php" class="grid-item-text">Таблеточный пресс NXi I</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press4.php" class="grid-item-img grid-item-img_alt"><img src="/img/4.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press4.php" class="grid-item-img grid-item-img_alt"><img src="/img/4.png" alt=""></a>
 
                             </div>
                             <a href="/raw-material-preparation/tablet-press/tablet-press4.php" class="grid-item-text">Таблеточный пресс UNIK II EC</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press5.php" class="grid-item-img grid-item-img_alt"><img src="/img/5.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press5.php" class="grid-item-img grid-item-img_alt"><img src="/img/5.png" alt=""></a>
 
                             </div>
                             <a href="/raw-material-preparation/tablet-press/tablet-press5.php" class="grid-item-text">Таблеточный пресс UNIK II SE</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press6.php" class="grid-item-img grid-item-img_alt"><img src="/img/6.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press6.php" class="grid-item-img grid-item-img_alt"><img src="/img/6.png" alt=""></a>
 
                             </div>
                             <a href="/raw-material-preparation/tablet-press/tablet-press6.php" class="grid-item-text">Таблеточный пресс UNIK I FC</a>
                         </div>
                         <div class="grid-item">
                             <div class="img-wraper">
-                                <a href="/raw-material-preparation/tablet-press/tablet-press7.php" class="grid-item-img grid-item-img_alt"><img src="/img/7.PNG" alt=""></a>
+                                <a href="/raw-material-preparation/tablet-press/tablet-press7.php" class="grid-item-img grid-item-img_alt"><img src="/img/7.png" alt=""></a>
 
                             </div>
                             <a href="/raw-material-preparation/tablet-press/tablet-press7.php" class="grid-item-text">Таблеточный пресс UNIK I FC</a>
