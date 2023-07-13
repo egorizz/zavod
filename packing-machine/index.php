@@ -32,46 +32,46 @@
                 <div class="grid-container">
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="/packing-machine/packing-machine1.php/"
+                            <a href="/packing-machine/packing-machine1.php"
                                 class="grid-item-img grid-item-img_alt"><img src="/img/packing1.png" alt=""></a>
 
                         </div>
-                        <a href="/packing-machine/packing-machine1.php/" class="grid-item-text">Стандартная упаковочная
+                        <a href="/packing-machine/packing-machine1.php" class="grid-item-text">Стандартная упаковочная
                             машина</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="/packing-machine/packing-machine2.php/"
+                            <a href="/packing-machine/packing-machine2.php"
                                 class="grid-item-img grid-item-img_alt"><img src="/img/packing2.png" alt=""></a>
                         </div>
-                        <a href="/packing-machine/packing-machine2.php/" class="grid-item-text">Машина для упаковки
+                        <a href="/packing-machine/packing-machine2.php" class="grid-item-text">Машина для упаковки
                             саше</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="/packing-machine/packing-machine3.php/"
+                            <a href="/packing-machine/packing-machine3.php"
                                 class="grid-item-img grid-item-img_alt"><img src="/img/packing3.png" alt=""></a>
 
                         </div>
-                        <a href="/packing-machine/packing-machine3.php/" class="grid-item-text">Горизонтальная
+                        <a href="/packing-machine/packing-machine3.php" class="grid-item-text">Горизонтальная
                             упаковочная машина с застежкой-молнией</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="/packing-machine/packing-machine4.php/"
+                            <a href="/packing-machine/packing-machine4.php"
                                 class="grid-item-img grid-item-img_alt"><img src="/img/packing4.png" alt=""></a>
 
                         </div>
-                        <a href="/packing-machine/packing-machine4.php/" class="grid-item-text">Малая вертикальная
+                        <a href="/packing-machine/packing-machine4.php" class="grid-item-text">Малая вертикальная
                             упаковочная машина для гранул</a>
                     </div>
                     <div class="grid-item">
                         <div class="img-wraper">
-                            <a href="/packing-machine/packing-machine5.php/"
+                            <a href="/packing-machine/packing-machine5.php"
                                 class="grid-item-img grid-item-img_alt"><img src="/img/packing5.png" alt=""></a>
 
                         </div>
-                        <a href="/packing-machine/packing-machine5.php/" class="grid-item-text">Горизонтальная
+                        <a href="/packing-machine/packing-machine5.php" class="grid-item-text">Горизонтальная
                             упаковочная машина для плоских пакетов</a>
                     </div>
                 </div>
