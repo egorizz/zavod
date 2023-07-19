@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css?v=9">
+    <link rel="stylesheet" href="/css/style.css?v=1">
 
     <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -67,6 +67,39 @@
                     <ul class="nav">
                         <li class="nav_item">
                             <a href="/" class="nav_item-link">ГЛАВНАЯ</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Таблеточные пресса</a>
+                                    <ul>
+                                        <li><a href="#">Таблеточный пресс NXi IV</a></li>
+                                        <li><a href="#">Таблеточный пресс NXi II</a></li>
+                                        <li><a href="#">Таблеточный пресс NXi I</a></li>
+                                        <li><a href="#">Таблеточный пресс UNIK II EC</a></li>
+                                        <li><a href="#">Таблеточный пресс UNIK II SE</a></li>
+                                        <li><a href="#">Таблеточный пресс UNIK I FC</a></li>
+                                        <li><a href="#">Таблеточный пресс UNIK I FC</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Упаковочные машины</a>
+                                    <ul>
+                                        <li><a href="#">Стандартная упаковочная машина</a></li>
+                                        <li><a href="#">Машина для упаковки саше</a></li>
+                                        <li><a href="#">Горизонтальная упаковочная машина с застежкой-молнией</a></li>
+                                        <li><a href="#">Малая вертикальная упаковочная машина для гранул</a></li>
+                                        <li><a href="#">Горизонтальная упаковочная машина для плоских пакетов</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Мебель по стандатам GMP</a>
+                                </li>
+                                <li>
+                                    <a href="#">Запасные части и комплектующие</a>
+                                    <ul>
+                                        <li><a href="#">Пуансоны</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav_item">
                             <a href="/company/" class="nav_item-link">О КОМПАНИИ</a>
@@ -74,11 +107,11 @@
                         <li class="nav_item">
                             <a href="/contacts/" class="nav_item-link">КОНТАКТЫ</a>
                         </li>
-                        <li class="nav_item">
+                        <!-- <li class="nav_item">
                             <a href="#" class="nav_item-link">
                                 <img src="/img/icons-search-01-1.png" alt="">
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
