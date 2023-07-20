@@ -67,7 +67,7 @@
                     <ul class="nav">
                         <li class="nav_item">
                             <a href="/" class="nav_item-link">ГЛАВНАЯ</a>
-                            <ul>
+                            <!-- <ul>
                                 <li>
                                     <a href="#">Таблеточные пресса</a>
                                     <ul>
@@ -99,7 +99,7 @@
                                         <li><a href="#">Пуансоны</a></li>
                                     </ul>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="nav_item">
                             <a href="/company/" class="nav_item-link">О КОМПАНИИ</a>
