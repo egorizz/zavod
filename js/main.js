@@ -160,4 +160,15 @@ window.onload = () => {
       modal.style.display = "none";
     }
   }
+
+  document.getElementById('myform').addEventListener('input', function () {
+    const inputs = this.getElementsByTagName('input');
+    let filled = 0;
+
+    for (let i = 0; i < inputs.length; i++) {
+      if (inputs[i].value) filled++;
+    }
+
+    document.getElementById('mybutton').disabled = filled !== inputs.length;
+  });
 }

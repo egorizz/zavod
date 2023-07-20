@@ -7,17 +7,17 @@
                         <div class="form-title">ЗАКАЗАТЬ ОБОРУДОВАНИЕ</div>
                         <div class="form-group">
                             <div class="input-group">
-                                <input type="text" id="name" name="name" placeholder="Ваше имя" class="input-group_item" />
-                                <input type="tel" id="telephone" name="telephone" placeholder="Ваш телефон" class="input-group_item" />
-                                <input type="email" id="email" name="email" placeholder="Ваш Email" class="input-group_item" />
+                                <input type="text" id="name" name="name" placeholder="Ваше имя" class="input-group_item" required />
+                                <input type="tel" id="telephone" name="telephone" placeholder="Ваш телефон" class="input-group_item" required />
+                                <input type="email" id="email" name="email" placeholder="Ваш Email" class="input-group_item" required />
                             </div>
                             <div class="textarea">
-                                <textarea id="message" name="message" placeholder="Ваше сообщение"></textarea>
+                                <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
                             </div>
                         </div>
                         <div class="checkbox-group">
                             <div class="checkbox-consent">
-                                <input type="checkbox" id="consent" name="consent" />
+                                <input type="checkbox" id="consent" name="consent" required />
                                 *
                                 <label for="consent">
                                     Подтверждаю согласие на обработку персональных данных в соответствии с Условиями

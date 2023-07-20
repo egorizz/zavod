@@ -6,6 +6,37 @@
     list-style: none;
 }
 
+// === VARIABLES ===
+
+$breakpoint-sm-min: 576px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-md-min: 768px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-lg-min: 992px;
+$breakpoint-md-max: $breakpoint-lg-min - 1px;
+$breakpoint-xl-min: 1200px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xxl-min: 1400px;
+$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
+
+$base: 4px;
+
+$transition: 0.2s;
+
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-bold: 900;
+
+$fs-xxs: 10px;
+$fs-xs: 12px;
+$fs-s: 14px;
+$fs-m: 24px;
+$fs-l: 26px;
+$fs-xl: 30px;
+$fs-xxl: 36px;
+// === / VARIABLES ===
+
 .modal {
     display: none;
     position: fixed;
@@ -24,13 +55,14 @@
         background-color: #fefefe;
         padding: 20px;
         border: 1px solid #888;
-        width: 50%;
+        width: 340px;
 
         .close {
             color: #aaaaaa;
             float: right;
             font-size: 28px;
             font-weight: bold;
+            padding-right: 5px;
 
             &:hover,
             &:focus {
@@ -41,10 +73,10 @@
         }
 
         .form {
-            padding-top: $base*7;
-            padding-bottom: $base*9;
-            padding-left: $base*25;
-            padding-right: $base*25;
+            padding-top: $base*2;
+            padding-bottom: $base*2;
+            padding-left: $base*2;
+            padding-right: $base*2;
             background-color: #007fad;
 
 
@@ -55,6 +87,7 @@
             }
 
             &-title {
+                text-align: center;
                 color: #fff;
                 margin-bottom: $base*3;
                 font-size: $fs-xl;
@@ -84,7 +117,9 @@
             &-group {
                 margin-bottom: $base*8;
                 display: flex;
-                justify-content: space-between;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 width: 100%;
 
                 @media (max-width: $breakpoint-lg-max) {
@@ -95,9 +130,8 @@
                 .input-group {
                     display: flex;
                     flex-direction: column;
-                    margin-right: $base*5;
                     // flex-grow: 0.5;
-                    width: 50%;
+                    width: 85%;
 
                     @media (max-width: $breakpoint-lg-max) {
                         width: 100%;
@@ -120,7 +154,7 @@
                     flex-direction: column;
                     // margin-left: $base*5;
                     // flex-grow: 0.5;
-                    width: 50%;
+                    width: 85%;
 
                     @media (max-width: $breakpoint-lg-max) {
                         width: 100%;
@@ -154,7 +188,9 @@
             }
 
             .checkbox-group {
+                text-align: center;
                 display: flex;
+                flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
                 // width: 100%;
@@ -173,7 +209,8 @@
                 }
 
                 label {
-                    margin-left: $base*3;
+                    display: flex;
+                    padding: 0 20px 10px;
                     font-size: $fs-s;
                     color: #fff;
                 }
@@ -222,37 +259,6 @@
 }
 
 // === / MIXIN ===
-
-// === VARIABLES ===
-
-$breakpoint-sm-min: 576px;
-$breakpoint-xs-max: $breakpoint-sm-min - 1px;
-$breakpoint-md-min: 768px;
-$breakpoint-sm-max: $breakpoint-md-min - 1px;
-$breakpoint-lg-min: 992px;
-$breakpoint-md-max: $breakpoint-lg-min - 1px;
-$breakpoint-xl-min: 1200px;
-$breakpoint-lg-max: $breakpoint-xl-min - 1px;
-$breakpoint-xxl-min: 1400px;
-$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
-
-$base: 4px;
-
-$transition: 0.2s;
-
-$fw-light: 300;
-$fw-regular: 400;
-$fw-medium: 500;
-$fw-bold: 900;
-
-$fs-xxs: 10px;
-$fs-xs: 12px;
-$fs-s: 14px;
-$fs-m: 24px;
-$fs-l: 26px;
-$fs-xl: 30px;
-$fs-xxl: 36px;
-// === / VARIABLES ===
 
 // === SLIDER ===
 
