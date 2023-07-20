@@ -43,6 +43,7 @@
                                         <div class="form-title">ЗАКАЗАТЬ ОБОРУДОВАНИЕ</div>
                                         <div class="form-group">
                                             <div class="input-group">
+                                                <input type="hidden" name="name" value="Горизонтальная упаковочная машина для плоских пакетов">
                                                 <input type="text" id="name" name="name" placeholder="Ваше имя" class="input-group_item" required />
                                                 <input type="tel" id="telephone" name="telephone" placeholder="Ваш телефон" class="input-group_item" required />
                                                 <input type="email" id="email" name="email" placeholder="Ваш Email" class="input-group_item" required />
